@@ -1,0 +1,675 @@
+{
+    "cosmological": {
+        "arxiv": [
+            {
+                "title": "The tension in the absolute magnitude of Type Ia supernovae",
+                "authors": [
+                    "David Camarena",
+                    "Valerio Marra"
+                ],
+                "summary": "This study aims to elucidate the tension in the Hubble constant ($H_0$), a key metric in cosmology representing the universe's expansion rate. Conflicting results from independent measurements such as the Planck satellite mission and the SH0ES collaboration have sparked interest in exploring alternative cosmological models. We extend the analysis by SH0ES to an arbitrary cosmographic model, obtaining a competitive local $H_0$ determination which only assumes the standard flat $Λ$CDM model ($73.14 \\pm 1.10$ km/s/Mpc), and another which only assumes the FLRW metric ($74.56 \\pm 1.61$ km/s/Mpc). The study also stresses the importance of the supernova magnitude calibration ($M_B$) in cosmological inference and highlights the tension in $M_B$ when supernovae are calibrated either by CMB and BAO observations or the first two rungs of the cosmic distance ladder. This discrepancy, independent of the physics involved, suggests that models solely changing the Hubble flow and maintaining a sound horizon distance consistent with CMB, fail to explain the discrepancy between early- and late-time measurements of $H_0$.",
+                "url": "https://arxiv.org/pdf/2307.02434v1",
+                "published": "2023-07-05 16:54:59+00:00"
+            },
+            {
+                "title": "On the interacting dark energy scenarios $-$ the case for Hubble constant tension",
+                "authors": [
+                    "Supriya Pan",
+                    "Weiqiang Yang"
+                ],
+                "summary": "The Hubble constant $H_0$ is one of the important cosmological parameters measuring the expansion rate of our universe at present moment. Over the last couple of years, $H_0$ has created an enormous amount of debates interests in the astrophysical and cosmological communities for its different estimations at many standard deviations by different observational surveys. The recent estimation of $H_0$ from the cosmic microwave background observations by Planck within the $Λ$-Cold Dark Matter ($Λ$CDM) paradigm is in tension with $\\gtrsim 5 σ$ confidence with SH0ES (Supernovae and $H_0$ for the Equation of State of dark energy) collaboration. As a result, revision of the standard $Λ$CDM model has been suggested in various ways in order to examine whether such scenarios can solve this $H_0$ tension. Among the list of the proposed cosmological scenarios, in this chapter we focus on a generalized cosmological theory in which the dark components of the universe, namely, Dark Matter (DM) and Dark Energy (DE) are allowed to interact with each other in a non-gravitational way, widely known as the Interacting DE or Coupled DE scenarios. These interacting scenarios have received magnificent attention in the scientific community for their appealing consequences. Specifically, in the context of $H_0$ tension, it has been observed that the interacting DE scenarios can lead to higher values of the Hubble constant ($H_0$) value, and consequently, the tension on $H_0$ can be either alleviated or solved. In this chapter we review various interacting DE scenarios and their roles in alleviating the $H_0$ tension.",
+                "url": "https://arxiv.org/pdf/2310.07260v2",
+                "published": "2023-10-11 07:37:16+00:00"
+            },
+            {
+                "title": "Does Hubble Tension Signal a Breakdown in FLRW Cosmology?",
+                "authors": [
+                    "Chethan Krishnan",
+                    "Roya Mohayaee",
+                    "Eoin Ó Colgáin",
+                    "M. M. Sheikh-Jabbari",
+                    "Lu Yin"
+                ],
+                "summary": "The tension between early and late Universe probes of the Hubble constant has motivated various new FLRW cosmologies. Here, we reanalyse the Hubble tension with a recent age of the Universe constraint. This allows us to restrict attention to matter and a dark energy sector that we treat without assuming a specific model. Assuming analyticity of the Hubble parameter $H(z)$, and a generic low redshift modification to flat $Λ$CDM, we find that low redshift data ($z \\lesssim 2.5$) and well-motivated priors only permit a dark energy sector close to the cosmological constant $Λ$. This restriction rules out late Universe modifications within FLRW. We show that early Universe physics that alters the sound horizon can yield an upper limit of $H_0 \\sim 71 \\pm 1$ km/s/Mpc. Since various local determinations may be converging to $H_0 \\sim 73$ km/s/Mpc, a breakdown of the FLRW framework is a plausible resolution. We outline how future data, in particular strongly lensed quasar data, could also provide further confirmations of such a resolution.",
+                "url": "https://arxiv.org/pdf/2105.09790v3",
+                "published": "2021-05-20 14:40:53+00:00"
+            },
+            {
+                "title": "Decaying Dark Matter and the Hubble Tension",
+                "authors": [
+                    "Andreas Nygaard",
+                    "Emil Brinch Holm",
+                    "Thomas Tram",
+                    "Steen Hannestad"
+                ],
+                "summary": "Decaying dark matter models generically modify the equation of state around the time of dark matter decay, and this in turn modifies the expansion rate of the Universe through the Friedmann equation. Thus, a priori, these models could solve or alleviate the Hubble tension, and depending on the lifetime of the dark matter, they can be classified as belonging to either the early- or late-time solutions. Moreover, decaying dark matter models can often be realized in particle physics models relatively easily. However, the implementations of these models in Einstein--Boltzmann solver codes are non-trivial, so not all incarnations have been tested. It is well known that models with very late decay of dark matter do not alleviate the Hubble tension, and in fact, cosmological data puts severe constraints on the lifetime of such dark matter scenarios. However, models in which a fraction of the dark matter decays to dark radiation at early times hold the possibility of modifying the effective equation of state around matter-radiation equality without affecting late-time cosmology. This scenario is therefore a simple realization of a possible early-time solution to the Hubble tension, and cosmological parameter estimation with current data in these models yields a value of $H_0 = 68.73^{+0.81}_{-1.3}$ at $68\\%$ C.I.. This still leads to a $2.7σ$ Gaussian tension with the representative local value of $H_0 = 73.2 \\pm 1.3$ km s$^{-1}$ Mpc$^{-1}$. Additional work is, however, required to test more complex decay scenarios, which could potentially prefer higher values of $H_0$ and provide a better solution to the Hubble tension.",
+                "url": "https://arxiv.org/pdf/2307.00418v1",
+                "published": "2023-07-01 20:02:28+00:00"
+            },
+            {
+                "title": "Band-limited Features in the Primordial Power Spectrum Do Not Resolve the Hubble Tension",
+                "authors": [
+                    "MiaoXin Liu",
+                    "Zhiqi Huang"
+                ],
+                "summary": "For a standard $Λ$CDM universe with a power-law primordial power spectrum, the discrepancy between early- and late-universe measurements of the Hubble constant continued to grow and recently reached $5.3σ$. During inflation, local features in the inflationary potential often lead to band-limited features in the primordial power spectrum, hence breaking the power-law assumption in the derivation of the Hubble tension. We investigate whether such inflationary \"glitches\" can ease the Hubble tension. The recently released \\emph{Planck} temperature and polarization data and the 2019 SH0ES+H0LiCOW joint constraint on the Hubble constant are combined to drive a blind Daubechies wavelet signal search in the primordial power spectrum, up to a resolution $Δ\\ln k\\sim 0.1$. We find no significant detection of any features beyond power law. With 64 more degrees of freedom injected in the primordial power spectrum, the Hubble tension persists at a $4.9σ$ level.",
+                "url": "https://arxiv.org/pdf/1910.05670v2",
+                "published": "2019-10-13 02:48:51+00:00"
+            },
+            {
+                "title": "Addressing the Hubble tension with cosmic chronometers",
+                "authors": [
+                    "Michele Moresco"
+                ],
+                "summary": "Twenty years after the discovery that the expansion of the Universe is accelerating, a new finding is now challenging our understanding of the cosmos. Recent studies have shown that the Hubble constant, the speed of expansion measured today, provides values in significant tension when measured from the Cosmic Microwave Background in the primordial Universe or from Cepheids and Supernovae Type Ia in the local Universe. Whether this tension is hinting towards new physics or some issue in the measurements, is still under debate; but it is clearly calling for new independent cosmological probes to provide additional pieces of evidence to solve this puzzle. This chapter introduces the method of cosmic chronometers, a new emerging cosmological probe that can provide cosmology-independent estimates of the Universe's expansion history. This method is based on the fact that the expansion rate of the Universe can be directly derived from measuring how much the Universe has changed in age between two different redshifts, i.e. by estimating the slope of the age--redshift relation. First, the main ingredients of the method will be discussed, presenting the main equations involved and how to estimate from the observables the needed quantities. After, it will be presented how to reliably select a sample of tracers to map the age evolution of the Universe coherently. Next, different methods to robustly measure the differential age of a population, the fundamental quantity involved in the method, will be reviewed. Finally, the main measurements obtained will be presented, providing forecasts for future surveys and discussing how these data can provide useful feedback to address the Hubble tension.",
+                "url": "https://arxiv.org/pdf/2307.09501v2",
+                "published": "2023-07-18 18:00:00+00:00"
+            },
+            {
+                "title": "On the dark radiation role in the Hubble constant tension",
+                "authors": [
+                    "Stefano Gariazzo",
+                    "Olga Mena"
+                ],
+                "summary": "Dark radiation, parameterized in terms of $N_{\\rm eff}$, has been considered many times in the literature as a possible remedy in alleviating the Hubble constant ($H_0$) tension. We review here the effect of such an extra dark radiation component in the different cosmological observables, focusing mostly on $H_0$. While a larger value of $N_{\\rm eff}$ automatically implies a larger value of the Hubble constant, and one would naively expect that such a simple scenario provides a decent solution, more elaborated models are required. Light sterile neutrinos or neutrino asymmetries are among the first-order corrections to the most economical (tree-level) massless dark radiation scenario. However, they are not fully satisfactory in solving the $H_0$ issue. We devote here special attention to second-order corrections: some interacting scenarios, such as those with new dark radiation degrees of freedom that exhibit a non-free streaming nature are highly satisfactory alternative cosmologies where to solve the Hubble constant tension. Models with self-interacting sterile neutrinos and/or majorons, both well-motivated beyond the Standard Model particles, will be discussed along our assessment.",
+                "url": "https://arxiv.org/pdf/2306.15067v1",
+                "published": "2023-06-26 21:13:57+00:00"
+            },
+            {
+                "title": "Resolving the Hubble tension at late times with Dark Energy",
+                "authors": [
+                    "Marco Raveri"
+                ],
+                "summary": "Within the standard cosmological model, the presence of Dark Energy (DE) is the only structural difference between the early and late times Universe. While its presence is in full display at late times, it is irrelevant at early times, especially when all other physical ingredients of the standard model are contributing to the formation of CMB anisotropies. This makes DE a natural candidate to try to solve cosmological tensions between measurements from these two different epochs. We will analyze how DE presence affects relevant cosmological observables and how it could change them. This will allow us to discuss how late-time measurements constrain DE models that aim to resolve the Hubble constant tension and the achievable performances of these models.",
+                "url": "https://arxiv.org/pdf/2309.06795v1",
+                "published": "2023-09-13 08:38:02+00:00"
+            },
+            {
+                "title": "Primordial magnetic fields and the Hubble tension",
+                "authors": [
+                    "Karsten Jedamzik",
+                    "Levon Pogosian"
+                ],
+                "summary": "Magnetic fields appear to be present in essentially all astrophysical environments, including galaxies, clusters of galaxies and voids. There are both observational and theoretical motives for considering the possibility of their origin tracing back to the events in the very early universe, such as the electroweak phase transition or Inflation. Such a primordial magnetic field (PMF) would remain embedded in the plasma and evolve to persist through the radiation and matter eras, and to the present day. As described in this Chapter, a PMF present in the primordial plasma prior to recombination could help relieve the Hubble tension. A stochastic magnetic field would induce inhomogeneities, pushing the baryons into regions of lower magnetic energy density and speeding up the recombination process. As a consequence, the sound horizon at last scattering would be smaller, which is a necessary ingredient for relieving the Hubble tension. Intriguingly, the strength of the magnetic field required to alleviate the tension is of the right order to also explain the observed magnetic fields in galaxies, clusters of galaxies and voids. These findings motivate further detailed studies of recombination in the presence of PMFs and observational tests of this hypothesis.",
+                "url": "https://arxiv.org/pdf/2307.05475v1",
+                "published": "2023-07-11 17:59:13+00:00"
+            },
+            {
+                "title": "Cosmology under the fractional calculus approach: a possible $H_0$ tension resolution?",
+                "authors": [
+                    "Genly Leon",
+                    "Miguel A. García-Aspeitia",
+                    "Guillermo Fernandez-Anaya",
+                    "Alberto Hernández-Almada",
+                    "Juan Magaña",
+                    "Esteban González"
+                ],
+                "summary": "Recently, a new field of study called fractional cosmology has emerged. It uses fractional calculus to modify the standard derivative equations and change the Friedmann equations. The evolution of cosmic species densities is also affected by the $μ$ fractional parameter and the age of the Universe $t_0$. This new approach to cosmology modifies the Friedmann equations and allows for a late cosmic acceleration without the need for a dark energy component. This could be a breakthrough in solving longstanding problems in cosmology. By analyzing observational Hubble data and Type Ia supernovae, we have been able to place strict constraints on the fractional and cosmological parameters. Our results suggest that the Universe may be older than previously estimated. We also explore whether fractional cosmology can help resolve the $H_0$ tension.",
+                "url": "https://arxiv.org/pdf/2304.14465v1",
+                "published": "2023-04-27 18:51:42+00:00"
+            }
+        ],
+        "pubmed": [
+            {
+                "pmid": "40961970",
+                "title": "New expansion rate anomalies at characteristic redshifts geometrically determined using DESI-DR2 BAO and DES-SN5YR observations.",
+                "abstract": "We perform a model-independent reconstruction of the cosmic distances using the multi-task Gaussian process framework as well as knot-based spline techniques with Dark Energy Spectroscopic Instrument (DESI)-DR2 baryon acoustic oscillation (BAO) and DES-SN5YR datasets. We calibrate the comoving sound horizon at the baryon drag epochrdto the Planck value, ensuring consistency with early-Universe physics. With the reconstructed cosmic distances and their derivatives, we obtain seven characteristic redshifts in the range0.3&#x2a7d;z&#x2a7d;1.7. We derive the normalized expansion rate of the Universe<i>E</i>(<i>z</i>) at these redshifts. Our findings reveal a significant deviations of approximately 4-5<i>&#x3c3;</i>from the Planck 2018 cold dark matter &#x39b;cold dark matter predictions, particularly pronounced in the redshift rangez&#x223c;0.35-0.55. These anomalies are consistently observed across both reconstruction methods and combined datasets, indicating robust late-time tensions in the expansion rate of the Universe and which are distinct from the existing 'Hubble Tension'. This could signal new physics beyond the standard cosmological framework at this redshift range. Our findings underscore the role of characteristic redshifts as sensitive indicators of expansion rate anomalies and motivate further scrutiny with forthcoming datasets from DESI-5YR BAO, Euclid, and LSST. These future surveys will tighten constraints and will confirm whether these late-time anomalies arise from new fundamental physics or unresolved systematics in the data."
+            },
+            {
+                "pmid": "40929198",
+                "title": "Novel Approach to Cosmological Nonlinearities as an Effective Fluid.",
+                "abstract": "We propose a two parameters extension of the flat &#x39b;CDM model to capture the impact of matter inhomogeneities on our cosmological inference. Non virialized but nonlinearly evolving overdense and underdense regions, whose abundance is quantified using the Press-Schechter formalism, are collectively described by two effective perfect fluids &#x3c1;_{c}, &#x3c1;_{v} with nonvanishing equation of state parameters w_{c,v}&#x2260;0. These fluids are coupled to the pressureless dust, akin to an interacting DM-DE scenario. The resulting phenomenology is very rich, and could potentially address a number of inconsistencies of the standard model, including a simultaneous resolution of the Hubble and &#x3c3;_{8} tensions. To assess the viability of the model, we set initial conditions compatible to the Planck 2018 best fit &#x39b;CDM cosmology and fit its additional parameters using SN Ia observations from DESY5, BAO distances from DESI DR2 and a sample of uncorrelated f&#x3c3;_{8} measurements. Our findings show that backreaction effects from the cosmic web could restore the concordance between early and late Universe cosmological probes."
+            },
+            {
+                "pmid": "40724476",
+                "title": "Maximum Entropy Estimates of Hubble Constant from Planck Measurements.",
+                "abstract": "A maximum entropy (ME) methodology was used to infer the Hubble constant from the temperature anisotropies in cosmic microwave background (CMB) measurements, as measured by the Planck satellite. A simple cosmological model provided physical insight and afforded robust statistical sampling of a parameter space. The parameter space included the spectral tilt and amplitude of adiabatic density fluctuations of the early universe and the present-day ratios of dark energy, matter, and baryonic matter density. A <i>statistical temperature</i> was estimated by applying the equipartition theorem, which uniquely specifies a posterior probability distribution. The ME analysis inferred the mean value of the Hubble constant to be about 67 km/sec/Mpc with a conservative standard deviation of approximately 4.4 km/sec/Mpc. Unlike standard Bayesian analyses that incorporate specific noise models, the ME approach treats the model error generically, thereby producing broader, but less assumption-dependent, uncertainty bounds. The inferred ME value lies within 1&#x3c3; of both early-universe estimates (Planck, Dark Energy Signal Instrument (DESI)) and late-universe measurements (e.g., the Chicago Carnegie Hubble Program (CCHP)) using redshift data collected from the James Webb Space Telescope (JWST). Thus, the ME analysis does not appear to support the existence of the Hubble tension."
+            },
+            {
+                "pmid": "39938549",
+                "title": "Challenges to the [Formula: see text]CDM cosmology.",
+                "abstract": "Observations of the cosmic microwave background (CMB) radiation are described with remarkable accuracy by the six-parameter [Formula: see text]CDM cosmology. However, the key ingredients of this model, namely dark matter, dark energy and cosmic inflation are not understood at a fundamental level. It is, therefore, important to investigate tensions between the CMB and other cosmological probes. I will review aspects of tensions with direct measurements of the Hubble constant [Formula: see text], measurements of weak gravitational lensing, and the recent hints of evolving dark energy reported by the Dark Energy Spectroscopic Instrument (DESI) collaboration.This article is part of the discussion meeting issue 'Challenging the standard cosmological model'."
+            },
+            {
+                "pmid": "39938544",
+                "title": "The ISW puzzle.",
+                "abstract": "The integrated Sachs-Wolfe (ISW) effect from stacking cosmic microwave background (CMB) images of superclusters and voids persists as a challenge to the concordance [Formula: see text]CDM paradigm. The signal is 4-5 times the expectation. The CMB Cold Spot (CS), the most significant CMB anomaly, resulted in the discovery of the Eridanus supervoid, one of the most enormous known structures. Bayesian statistics and a later Dark Energy Survey (DES) analysis suggest it is responsible for the CS, consistent with the observed fourfold enhancement over concordance predictions. These results motivate the average expansion rate approximation (AvERA) model, tracking coarse-grained inhomogeneities in an <i>N</i>-body simulation. The AvERA expansion history provides a 'late solution' to the Hubble-constant tension with emerging curvature taking the role of Dark Energy, is consistent with all principal CMB and large-scale structure measurements, and solves the ISW puzzle. In addition, it predicts a sign reversal of the ISW effect that has been recently confirmed, albeit at a moderate significance, with eBOSS quasars. Deep and wide galaxy surveys, such as Euclid, will soon confirm or refute the 'late complexity' indicated by the ISW sign reversal, increase the overall statistical significance of the findings and settle whether the ISW puzzle necessitates any significant modification to the concordance [Formula: see text]CDM paradigm.This article is part of the discussion meeting issue 'Challenging the standard cosmological model'."
+            },
+            {
+                "pmid": "39202132",
+                "title": "Modified Gravity in the Presence of Matter Creation: Scenario for the Late Universe.",
+                "abstract": "We consider a dynamic scenario for characterizing the late Universe evolution, aiming to mitigate the Hubble tension. Specifically, we consider a metric f(R) gravity in the Jordan frame which is implemented to the dynamics of a flat isotropic Universe. This cosmological model incorporates a matter creation process, due to the time variation of the cosmological gravitational field. We model particle creation by representing the isotropic Universe (specifically, a given fiducial volume) as an open thermodynamic system. The resulting dynamical model involves four unknowns: the Hubble parameter, the non-minimally coupled scalar field, its potential, and the energy density of the matter component. We impose suitable conditions to derive a closed system for these functions of the redshift. In this model, the vacuum energy density of the present Universe is determined by the scalar field potential, in line with the modified gravity scenario. Hence, we construct a viable model, determining the form of the f(R) theory a posteriori and appropriately constraining the phenomenological parameters of the matter creation process to eliminate tachyon modes. Finally, by analyzing the allowed parameter space, we demonstrate that the Planck evolution of the Hubble parameter can be reconciled with the late Universe dynamics, thus alleviating the Hubble tension."
+            },
+            {
+                "pmid": "38899030",
+                "title": "Time-Delay Cosmography: Measuring the Hubble Constant and Other Cosmological Parameters with Strong Gravitational Lensing.",
+                "abstract": "Multiply lensed images of a same source experience a relative time delay in the arrival of photons due to the path length difference and the different gravitational potentials the photons travel through. This effect can be used to measure absolute distances and the Hubble constant ( <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>H</mml:mi> <mml:mn>0</mml:mn></mml:msub> </mml:math> ) and is known as time-delay cosmography. The method is independent of the local distance ladder and early-universe physics and provides a precise and competitive measurement of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>H</mml:mi> <mml:mn>0</mml:mn></mml:msub> </mml:math> . With upcoming observatories, time-delay cosmography can provide a 1% precision measurement of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>H</mml:mi> <mml:mn>0</mml:mn></mml:msub> </mml:math> and can decisively shed light on the current reported 'Hubble tension'. This manuscript details the general methodology developed over the past decades in time-delay cosmography, discusses recent advances and results, and, foremost, provides a foundation and outlook for the next decade in providing accurate and ever more precise measurements with increased sample size and improved observational techniques."
+            },
+            {
+                "pmid": "38877953",
+                "title": "Improved Planck Constraints on Axionlike Early Dark Energy as a Resolution of the Hubble Tension.",
+                "abstract": "Axionlike early dark energy (EDE) as an extension to &#x39b; cold dark matter (&#x39b;CDM) has been proposed as a possible solution to the \"Hubble tension.\" We revisit this model using a new cosmic microwave background (CMB) temperature and polarization likelihood constructed from the Planck NPIPE data release. In a Bayesian analysis, we find that the maximum fractional contribution of EDE to the total energy density is f_{EDE}&lt;0.061 (without SH0ES) over the redshift range z&#x2208;[10^{3},10^{4}] and that the Hubble constant is constrained to lie within the range 66.9&lt;H_{0}&lt;69.5&#x2009;&#x2009;km&#x2009;s^{-1}&#x2009;Mpc^{-1} (both at 95%&#xa0;C.L.). The data therefore favor a model close to &#x39b;CDM, leaving a residual tension of 3.7&#x3c3; with the SH0ES Cepheid-based measurement of H_{0}. A comparison with the likelihood profile shows that our conclusions are robust to prior-volume effects. Our new CMB likelihood provides no evidence in favor of a significant EDE component."
+            },
+            {
+                "pmid": "38392365",
+                "title": "Particle Physics and Cosmology Intertwined.",
+                "abstract": "While the standard model accurately describes data at the electroweak scale without the inclusion of gravity, beyond the standard model, physics is increasingly intertwined with gravitational phenomena and cosmology. Thus, the gravity-mediated breaking of supersymmetry in supergravity models leads to sparticle masses, which are gravitational in origin, observable at TeV scales and testable at the LHC, and supergravity also provides a candidate for dark matter, a possible framework for inflationary models and for models of dark energy. Further, extended supergravity models and string and D-brane models contain hidden sectors, some of which may be feebly coupled to the visible sector, resulting in heat exchange between the visible and hidden sectors. Because of the couplings between the sectors, both particle physics and cosmology are affected. The above implies that particle physics and cosmology are intrinsically intertwined in the resolution of essentially all of the cosmological phenomena, such as dark matter and dark energy, and in the resolution of cosmological puzzles, such as the Hubble tension and the EDGES anomaly. Here, we give a brief overview of the intertwining and its implications for the discovery of sparticles, as well as the resolution of cosmological anomalies and the identification of dark matter and dark energy as major challenges for the coming decades."
+            },
+            {
+                "pmid": "38039476",
+                "title": "Canonical Hubble-Tension-Resolving Early Dark Energy Cosmologies Are Inconsistent with the Lyman-&#x3b1; Forest.",
+                "abstract": "Current cosmological data exhibit discordance between indirect and some direct inferences of the present-day expansion rate H_{0}. Early dark energy (EDE), which briefly increases the cosmic expansion rate prior to recombination, is a leading scenario for resolving this \"Hubble tension\" while preserving a good fit to cosmic microwave background (CMB) data. However, this comes at the cost of changes in parameters that affect structure formation in the late-time universe, including the spectral index of scalar perturbations n_{s}. Here, we present the first constraints on axionlike EDE using data from the Lyman-&#x3b1; forest, i.e., absorption lines imprinted in background quasar spectra by neutral hydrogen gas along the line of sight. We consider two independent measurements of the one-dimensional Ly&#x3b1; forest flux power spectrum from the Sloan Digital Sky Survey (SDSS eBOSS) and from the MIKE/HIRES and X-Shooter spectrographs. We combine these with a baseline dataset comprised of Planck CMB data and baryon acoustic oscillation (BAO) measurements. Combining the eBOSS Ly&#x3b1; data with the CMB and BAO dataset reduces the 95% confidence level (C.L.) upper bound on the maximum fractional contribution of EDE to the cosmic energy budget f_{EDE} from 0.07 to 0.03 and constrains H_{0}=67.9_{-0.4}^{+0.4}&#x2009;&#x2009;km/s/Mpc (68% C.L.), with maximum a&#xa0;posteriori value H_{0}=67.9&#x2009;&#x2009;km/s/Mpc. Similar results are obtained for the MIKE/HIRES and X-Shooter Ly&#x3b1; data. Our Ly&#x3b1;-based EDE constraints yield H_{0} values that are in &gt;4&#x3c3; tension with the SH0ES distance-ladder measurement and are driven by the preference of the Ly&#x3b1; forest data for n_{s} values lower than those required by EDE cosmologies that fit Planck CMB data. Taken at face value, the Ly&#x3b1; forest severely constrains canonical EDE models that could resolve the Hubble tension."
+            }
+        ]
+    },
+    "quantum": {
+        "arxiv": [
+            {
+                "title": "Experimental Search for Quantum Gravity",
+                "authors": [
+                    "Sabine Hossenfelder"
+                ],
+                "summary": "We offer a brief survey of existent and planned experimental tests for quantum gravity. First, we outline the questions we wish to address, and then introduce some of the phenomenological models that are currently used in quantum gravity, both with and without a lowered Planck scale. After that, we summarize experimental areas where these models can be tested or constrained and discuss the status of the field.",
+                "url": "https://arxiv.org/pdf/1010.3420v1",
+                "published": "2010-10-17 15:21:06+00:00"
+            },
+            {
+                "title": "Loop Quantum Gravity and Quantum Information",
+                "authors": [
+                    "Eugenio Bianchi",
+                    "Etera R. Livine"
+                ],
+                "summary": "We summarize recent developments at the interface of quantum gravity and quantum information, and discuss applications to the quantum geometry of space in loop quantum gravity. In particular, we describe the notions of link entanglement, intertwiner entanglement, and boundary spin entanglement in a spin-network state. We discuss how these notions encode the gluing of quanta of space and their relevance for the reconstruction of a quantum geometry from a network of entanglement structures. We then focus on the geometric entanglement entropy of spin-network states at fixed spins, treated as a many-body system of quantum polyhedra, and discuss the hierarchy of volume-law, area-law and zero-law states. Using information theoretic bounds on the uncertainty of geometric observables and on their correlations, we identify area-law states as the corner of the Hilbert space that encodes a semiclassical geometry, and the geometric entanglement entropy as a probe of semiclassicality.",
+                "url": "https://arxiv.org/pdf/2302.05922v1",
+                "published": "2023-02-12 14:29:25+00:00"
+            },
+            {
+                "title": "Gauge invariant renormalizability of quantum gravity",
+                "authors": [
+                    "P. M. Lavrov",
+                    "I. L. Shapiro"
+                ],
+                "summary": "The current understanding of renormalization in quantum gravity (QG) is based on the fact that UV divergences of effective actions in the covariant QG models are covariant local expressions. This fundamental statement plays a central role in QG and, therefore, it is important to prove it for the widest possible range of the QG theories. Using the Batalin-Vilkovisky technique and the background field method, we elaborate the proof of gauge invariant renormalizability for a generic model of quantum gravity that is diffeomorphism invariant and does not have additional, potentially anomalous, symmetries.",
+                "url": "https://arxiv.org/pdf/2210.09271v2",
+                "published": "2022-10-17 17:21:54+00:00"
+            },
+            {
+                "title": "Let Loop Quantum Gravity and Affine Quantum Gravity Examine Each Other",
+                "authors": [
+                    "John R. Klauder"
+                ],
+                "summary": "Loop Quantum Gravity is widely developed using canonical quantization in an effort to find the correct quantization for gravity. Affine quantization, which is like canonical quantization augmented bounded in one orientation, e.g., a strictly positive coordinate. We open discussion using canonical and affine quantizations for two simple problems so each procedure can be understood. That analysis opens a modest treatment of quantum gravity gleaned from some typical features that exhibit the profound differences between aspects of seeking the quantum treatment of Einstein's gravity.",
+                "url": "https://arxiv.org/pdf/2107.07879v1",
+                "published": "2021-05-23 00:44:28+00:00"
+            },
+            {
+                "title": "Tabletop experiments for quantum gravity: a user's manual",
+                "authors": [
+                    "Daniel Carney",
+                    "Philip C. E. Stamp",
+                    "Jacob M. Taylor"
+                ],
+                "summary": "Recent advances in cooling, control, and measurement of mechanical systems in the quantum regime have opened the possibility of the first direct observation of quantum gravity, at scales achievable in experiments. This paper gives a broad overview of this idea, using some matter-wave and optomechanical systems to illustrate the predictions of a variety of models of low-energy quantum gravity. We first review the treatment of perturbatively quantized general relativity as an effective quantum field theory, and consider the particular challenges of observing quantum effects in this framework. We then move on to a variety of alternative models, such as those in which gravity is classical, emergent, or responsible for a breakdown of quantum mechanics.",
+                "url": "https://arxiv.org/pdf/1807.11494v2",
+                "published": "2018-07-30 18:00:04+00:00"
+            },
+            {
+                "title": "Loop quantum gravity of a spherically symmetric scalar field coupled to gravity with a clock",
+                "authors": [
+                    "Rodolfo Gambini",
+                    "Jorge Pullin"
+                ],
+                "summary": "The inclusion of matter fields in spherically symmetric loop quantum gravity has proved problematic at the level of implementing the constraint algebra including the Hamiltonian constraint. Here we consider the system with the introduction of a clock. Using the Abelianizaton technique we introduced in previous papers in the case of gravity coupled to matter, the system can be gauge fixed and rewritten in terms of a restricted set of dynamical variables that satisfy simple Poisson bracket relations. This creates a true Hamiltonian and therefore one bypasses the issue of the constraint algebra. We show how loop quantum gravity techniques may be applied for the vacuum case and show that the Hamiltonian system reproduces previous results for the physical space of states and the observables of a Schwarzchild black hole.",
+                "url": "https://arxiv.org/pdf/2303.09392v1",
+                "published": "2023-03-16 15:32:37+00:00"
+            },
+            {
+                "title": "Searching for Coherent States: From Origins to Quantum Gravity",
+                "authors": [
+                    "Pierre Martin-Dussaud"
+                ],
+                "summary": "We discuss the notion of coherent states from three different perspectives: the seminal approach of Schroedinger, the experimental take of quantum optics, and the theoretical developments in quantum gravity. This comparative study tries to emphasise the connections between the approaches, and to offer a coherent short story of the field, so to speak. It may be useful for pedagogical purposes, as well as for specialists of quantum optics and quantum gravity willing to embed their perspective within a wider landscape.",
+                "url": "https://arxiv.org/pdf/2003.11810v4",
+                "published": "2020-03-26 09:30:00+00:00"
+            },
+            {
+                "title": "The background information about perturbative quantum gravity",
+                "authors": [
+                    "Ilya L. Shapiro"
+                ],
+                "summary": "The purpose of this Chapter is to give a general introduction and status review on the perturbative approach to quantum gravity (QG). This text is a modified version of the corresponding chapters of Part II of the recent textbook on quantum field theory (QFT) and QG, co-authored with I.L. Buchbinder and published in Oxford University Press. We discuss the choice of the starting action in the QG models, degrees of freedom and propagator of metric perturbations, power counting and renormalizability of these models, the problems related to higher derivative theories and ghosts, such as quantum unitarity and the stability of classical solutions in general relativity; and the perspective to overcome these problems. The gauge fixing and parametrization dependencies are discussed in detail using the corresponding general QFT theorems developed in gauge theories. On top of that, we present a basic example of deriving the one-loop divergences and discuss an important example of the renormalization group in QG. The gauge invariant renormalizability of QG is considered in another Chapter of the Handbook, written together with P.M. Lavrov.",
+                "url": "https://arxiv.org/pdf/2210.12319v1",
+                "published": "2022-10-22 00:50:39+00:00"
+            },
+            {
+                "title": "Holographic complexity and the Hubble tension: a quantum gravity portrayal for the large scale structure of the cosmos",
+                "authors": [
+                    "Carlos Silva"
+                ],
+                "summary": "In this letter, we propose a relationship between the so-called Hubble-Lemaître constant $H_{0}$ and holographic complexity related to the emergence of spacetime in quantum gravity. Such a result can represent an important step to understanding the Hubble tension by introducing a quantum gravity perspective for cosmological observations: regarding the degree of quantum complexity we measure around us.",
+                "url": "https://arxiv.org/pdf/2312.05267v4",
+                "published": "2023-12-06 17:39:27+00:00"
+            },
+            {
+                "title": "Quantum gravity phenomenology from the perspective of quantum general relativity and quadratic gravity",
+                "authors": [
+                    "Gabriel Menezes"
+                ],
+                "summary": "Multi-messenger astronomy provides us with the possibility of discovering phenomenological signatures of quantum-gravity effects. This should be of paramount importance in the pursuit of an elusive quantum theory for the gravitational interactions. Here we discuss feasible explorations within the effective field theory treatment of general relativity. By exploring current techniques borrowed from modern amplitude methods, we calculate leading quantum corrections to the classical radiated momentum and spectral waveforms. The lessons drawn from these low-energy results are that phenomenological applications in gravitational-wave physics can be discussed in line with the effective field theory approach. In turn, we also examine possible phenomenological surveys from the perspective of a UV completion for quantum gravity which employs the metric as the fundamental dynamical variable, namely quadratic gravity. Being more specific, by resorting to the eikonal approximation, we compute the leading-order time delay/advance in the scattering of light by a heavy object and find a possible significant deviation from the standard general-relativity prediction. This allows us to probe causal uncertainty due to quantum fluctuations of the gravitational field as a genuine prediction from Planck-scale physics.",
+                "url": "https://arxiv.org/pdf/2305.19517v2",
+                "published": "2023-05-31 03:01:01+00:00"
+            }
+        ],
+        "pubmed": [
+            {
+                "pmid": "41295011",
+                "title": "Quantum Gravity Spacetime: Universe vs. Multiverse.",
+                "abstract": "Starting from the realization that the theory of quantum gravity (QG) cannot be deterministic due to its intrinsic quantum nature, the requirement is posed that QG should fulfill a suitable Heisenberg Generalized Uncertainty Principle (GUP) to be expressed as a local relationship determined from first principles and expressed in covariant 4-tensor form. We prove that such a principle places also a physical realizability condition denoted as \"quantum covariance criterion\", which provides a possible selection rule for physically-admissible spacetimes. Such a requirement is not met by most of current QG theories (e.g., string theory, Geometrodynamics, loop quantum gravity, GUP and minimum-length-theories), which are based on the so-called multiverse representation of space-time in which the variational tensor field coincides with the spacetime metric tensor. However, an alternative is provided by theories characterized by a universe representation, namely in which the variational tensor field differs from the unique \"background\" metric tensor. It is shown that the latter theories satisfy the said Heisenberg GUP and also fulfill the aforementioned physical realizability condition."
+            },
+            {
+                "pmid": "41285880",
+                "title": "Strongest constraint on the parastatistical Quon model with the VIP-2 measurements.",
+                "abstract": "The spin-statistics theorem leads to Pauli&#x2019;s Exclusion Principle (PEP), the basis of the stability of matter and many other phenomena relevant to physics, astrophysics, cosmology, and even biology. Possible violations of the PEP (PEPV) have been searched for since its inception; they may come from various Beyond Standard Model descriptions, including Non-Commutative Quantum Gravity models and extensions of the Quantum Field Theory, which must follow the Messiah-Greenberg Super-Selection (MGSS) rule and lead to the Quon description of the spin-statistic symmetries: the parastatstics. Efforts to search for a PEPV are not new; however, they have typically measured those cases without respecting MGSS. VIP (VIolation of the Pauli exclusion principle) first and its successor VIP-2, both sited in the &#x201c;Gran Sasso underground laboratory,&#x201d; aimed to set the most stringent limit for the non-Paulian transition following the MGSS rule. After two years of data with VIP-2 and better modeling of the electron-atom interaction, we present the most stringent upper limit of the probability of PEP violation for this case ([Formula: see text]), thus completing the state-of-the-art of all possible PEPV cases, and the consequent constraint to the Quon description: [Formula: see text]."
+            },
+            {
+                "pmid": "41269978",
+                "title": "Clock Precision beyond the Standard Quantum Limit at 10^{-18} Level.",
+                "abstract": "Optical atomic clocks with unrivaled precision and accuracy have advanced the frontier of precision measurement science and opened new avenues for exploring fundamental physics. A fundamental limitation on clock precision is the standard quantum limit (SQL), which stems from the uncorrelated projection noise of each atom. State-of-the-art optical lattice clocks interrogate large ensembles to minimize the SQL, but density-dependent frequency shifts pose challenges to scaling the atom number. The SQL can be surpassed, however, by leveraging entanglement, though it remains an open problem to achieve quantum advantage from spin squeezing at state-of-the-art stability levels. Here, we demonstrate clock performance beyond the SQL, achieving a fractional frequency precision of 1.1&#xd7;10^{-18} for a single spin-squeezed clock. With cavity-based quantum nondemolition measurements, we prepare two spin-squeezed ensembles of &#x223c;30&#x2009;000 strontium atoms confined in a two-dimensional optical lattice. A synchronous clock comparison with an interrogation time of 61&#xa0;ms achieves a metrological improvement of 2.0(2)&#xa0;dB beyond the SQL, after correcting for state preparation and measurement errors. These results establish the most precise entanglement-enhanced clock to date and offer a powerful platform for exploring the interplay of gravity and quantum entanglement."
+            },
+            {
+                "pmid": "41250414",
+                "title": "Beyond holography: The entropic quantum gravity foundations of anisotropic diffusion.",
+                "abstract": "Recently, thanks to the development of artificial intelligence (AI), there is increasing scientific attention in establishing the connections between theoretical physics and AI. Traditionally, these connections have been focusing mostly on the relation between string theory and image processing and involve important theoretical paradigms such as holography. Recently, G. Bianconi has formulated the Gravity from Entropy (GfE) approach to quantum gravity in which gravity is derived from the geometric quantum relative entropy (GQRE) between two metrics associated with the Lorentzian spacetime. Here, it is demonstrated that the famous Perona-Malik algorithm for image processing is the gradient flow of the GfE action in its simple warm-up scenario. Specifically, this algorithm is the outcome of the maximization of the GfE action between two Euclidean metrics: the one in support of the image and the one induced by the image. As the Perona-Malik algorithm is known to preserve sharp contours, this implies that the GfE action does not, in general, lead to uniform images upon iteration of the gradient flow dynamics as it would be intuitively expected from entropic actions maximizing classical entropies. Rather, the outcome of the maximization of the GfE action is compatible with the preservation of complex structures. These results provide the geometrical and information theory foundations for the Perona-Malik algorithm and might contribute to establish deeper connections between GfE, machine learning, and brain research."
+            },
+            {
+                "pmid": "41247958",
+                "title": "Search for Exotic Spin-Dependent Interactions with Dressed Atoms.",
+                "abstract": "We present a method to engineer the Land&#xe9; g factor of alkali-metal atoms using spin-exchange collisions and nonresonant radio-frequency (rf) magnetic-field dressing. We analyze schemes with both linearly and circularly polarized rf dressing to generate dressed states, allowing the responses to magnetic and nonmagnetic spin-dependent interactions, such as the spin-gravity interaction, to be distinguished in the output signal. Our method provides a complementary approach to conventional comagnetometry in the investigation of exotic spin-dependent interactions and gyroscopes."
+            },
+            {
+                "pmid": "41196170",
+                "title": "Progress in the development of a spherical superconducting gravimeter based on SQUID detection.",
+                "abstract": "This study presents the design, development, and evaluation of a spherical superconducting gravimeter employing superconducting quantum interference device (SQUID) detection, with the objective of achieving ultrahigh sensitivity and a lower noise level in gravity measurements. To this end, a novel multi-coil levitation system was developed to reduce the system's intrinsic frequency, thereby enhancing low-frequency sensitivity and noise suppression. Comprehensive noise analysis, encompassing mechanical thermal noise and SQUID noise, reveals that the system theoretically achieves a noise level below the new low noise model (NLNM) across the entire frequency spectrum. We conducted a five-day solid tide observation experiment and performed a linear fitting analysis between the experimental and GWR tidal data. The results revealed a transfer function of 55.974 &#xb1; 0.053 &#x3bc;Gal/V, which surpassed the design expectations. Furthermore, the experimental data showed excellent agreement with the theoretical solid tide, validating the theoretical model and confirming the feasibility of the prototype design."
+            },
+            {
+                "pmid": "41193863",
+                "title": "On-chip quantum interference of indistinguishable single photons from integrated independent molecules.",
+                "abstract": "On-chip integration of independent channels of indistinguishable single photons is a prerequisite for scalable optical quantum information processing. This requires separate solid-state single-photon emitters to exhibit identical lifetime-limited transitions. This challenging task is usually further exacerbated by spectral diffusion due to complex charge noise near material surfaces made by nanofabrication processes. Here we develop a molecular quantum photonic chip and demonstrate on-chip Hong-Ou-Mandel quantum interference of indistinguishable single photons from independent molecules. The molecules are embedded in a single-crystalline organic nanosheet and integrated with single-mode waveguides without nanofabrication, thereby ensuring stable, lifetime-limited transitions. With the aid of Stark tuning, we show how 100 waveguide-coupled molecules can be tuned to the same frequency and achieve on-chip Hong-Ou-Mandel interference visibilities exceeding 0.97 for 2 molecules separately coupled to 2 waveguides. For two molecules with a controlled frequency difference, we unveil over 100-&#xb5;s-long quantum beating in the interference, showing both excellent single-photon purity (particle nature) and long coherence (wave nature) of the emission. Our results showcase a possible strategy towards constructing scalable optical universal quantum processors and a promising platform for studying waveguide quantum electrodynamics with identical single emitters wired via photonic circuits."
+            },
+            {
+                "pmid": "41190805",
+                "title": "Plasma-Tailored Intrinsic Defect Engineering for BiFeO<sub>3</sub> Homojunctions: A Non-element Intrusive Doping Strategy.",
+                "abstract": "Homojunction engineering presents a promising route to enhance charge separation and transfer in photoelectrochemical (PEC) systems, provided that challenges such as controllable doping are addressed. Herein, a non-element intrusive doping strategy is proposed to construct homojunctions within perovskite-type semiconductors through intrinsic defect gradient engineering. A BiFeO<sub>3</sub> (BFO)-based homojunction was fabricated by precisely regulating oxygen vacancy (V<sub>O</sub>) concentration via O<sub>2</sub>/Ar plasma treatment. The optimized BFO photocathode achieves a photocurrent density of &#x223c;0.68 mA/cm<sup>2</sup> at 0.2 V vs RHE, nearly double that of pristine BFO (&#x223c;0.36 mA/cm<sup>2</sup>), along with a high H<sub>2</sub>O<sub>2</sub> production rate of 462.1 mmol&#xb7;L<sup>-1</sup>&#xb7;h<sup>-1</sup>&#xb7;m<sup>-2</sup> and long-term stability. X-ray spectroscopy and optical simulations reveal that the treatment with an O<sub>2</sub> plasma reduces the surface V<sub>O</sub> concentration, reduces the Fermi level, and establishes a continuous internal electric field across the homojunction to enhance electron transfer. Density functional theory (DFT) calculations further clarify the thermodynamic stability and electronic structure modulation induced by V<sub>O</sub> regulation. This work provides a strategy for designing efficient photoelectrodes via intrinsic defect engineering."
+            },
+            {
+                "pmid": "41172207",
+                "title": "Hawking Evaporation and the Fate of Black Holes in Loop Quantum Gravity.",
+                "abstract": "A recent covariant formulation, that includes nonperturbative effects from loop quantum gravity (LQG) as self-consistent effective models, has revealed the possibility of nonsingular black hole solutions. The new framework makes it possible to couple scalar matter to such LQG black holes and derive Hawking radiation in the presence of quantum spacetime effects while respecting general covariance. Standard methods to derive particle production both within the geometric optics approximation and the Parikh-Wilczek tunnelling approach are therefore available and confirm the thermal nature of Hawking radiation. The covariant description of scale-dependent decreasing holonomy corrections maintains Hawking temperature as well as universality of the low-energy transmission coefficients, stating that the absorption rates are proportional to the horizon area at leading order. Quantum-geometry effects enter the thermal distribution only through subleading corrections in the graybody factors. Nevertheless, they do impact energy emission of the black hole and its final state in a crucial way regarding one of the main questions of black-hole evaporation: whether a black-to-white-hole transition, or a stable remnant, is preferred. For the first time, a first-principles derivation, based on a discussion of backreaction, finds evidence that points to the former outcome."
+            },
+            {
+                "pmid": "41138102",
+                "title": "Krylov Spread Complexity as Holographic Complexity beyond Jackiw-Teitelboim Gravity.",
+                "abstract": "One of the important open problems in quantum black hole physics is a dual interpretation of holographic complexity proposals. To date the only quantitative match is the equality between the Krylov spread complexity in the triple-scaled Sachdev-Ye-Kitaev (SYK) model and the complexity = volume proposal in classical Jackiw-Teitelboim gravity. Our Letter utilizes the recent connection between the double-scaled SYK model and sine dilaton gravity to show that the quantitative relation between Krylov spread complexity and complexity = volume extends to finite temperatures and to full quantum regime on the gravity side at disk level. Furthermore, we isolate the first quantum correction to the complexity = volume proposal and propose to view it as a complexity of quantum fields in the bulk. The key lesson from our Letter is that gravity demands to assign complexity also to Euclidean state preparation."
+            }
+        ]
+    },
+    "biological": {
+        "arxiv": [
+            {
+                "title": "Large Interferometer For Exoplanets (LIFE): IV. Ideal kernel-nulling array architectures for a space-based mid-infrared nulling interferometer",
+                "authors": [
+                    "Jonah T. Hansen",
+                    "Michael J. Ireland",
+                    "the LIFE Collaboration"
+                ],
+                "summary": "Aims: Optical interferometry from space for the purpose of detecting and characterising exoplanets is seeing a revival, specifically from missions such as the proposed Large Interferometer For Exoplanets (LIFE). A default assumption since the design studies of Darwin and TPF-I has been that the Emma X-array configuration is the optimal architecture for this goal. Here, we examine whether new advances in the field of nulling interferometry, such as the concept of kernel nulling, challenge this assumption.\n  Methods: We develop a tool designed to derive the photon-limited signal to noise ratio of a large sample of simulated planets for different architecture configurations and beam combination schemes. We simulate four basic configurations: the double Bracewell/X-array, and kernel nullers with three, four and five telescopes respectively.\n  Results: We find that a configuration of five telescopes in a pentagonal shape, using a five aperture kernel nulling scheme, outperforms the X-array design in both search (finding more planets) and characterisation (obtaining better signal, faster) when total collecting area is conserved. This is especially the case when trying to detect Earth twins (temperate, rocky planets in the habitable zone), showing a 23% yield increase over the X-array. On average, we find that a five telescope design receives 1.2 times the signal over the X-array design.\n  Conclusions: With the results of this simulation, we conclude that the Emma X-array configuration may not be the best architecture choice for the upcoming LIFE mission, and that a five telescope design utilising kernel nulling concepts will likely provide better scientific return for the same collecting area, provided that technical solutions for the required achromatic phase shifts can be implemented.",
+                "url": "https://arxiv.org/pdf/2201.04891v3",
+                "published": "2022-01-13 11:22:35+00:00"
+            },
+            {
+                "title": "Large Interferometer For Exoplanets (LIFE): XIII. The Value of Combining Thermal Emission and Reflected Light for the Characterization of Earth Twins",
+                "authors": [
+                    "E. Alei",
+                    "S. P. Quanz",
+                    "B. S. Konrad",
+                    "E. O. Garvin",
+                    "V. Kofman",
+                    "A. Mandell",
+                    "D. Angerhausen",
+                    "P. Mollière",
+                    "M. R. Meyer",
+                    "T. Robinson",
+                    "S. Rugheimer",
+                    "the LIFE Collaboration"
+                ],
+                "summary": "Following the recommendations to NASA and ESA, the search for life on exoplanets will be a priority in the next decades. Two direct imaging space mission concepts are being developed: the Habitable Worlds Observatory (HWO) and the Large Interferometer for Exoplanets (LIFE). HWO focuses on reflected light spectra in the ultraviolet/visible/near-infrared (UV/VIS/NIR), while LIFE captures the mid-infrared (MIR) emission of temperate exoplanets. We assess the potential of HWO and LIFE in characterizing a cloud-free Earth twin orbiting a Sun-like star at 10 pc, both separately and synergistically, aiming to quantify the increase in information from joint atmospheric retrievals on a habitable planet. We perform Bayesian retrievals on simulated data from an HWO-like and a LIFE-like mission separately, then jointly, considering the baseline spectral resolutions currently assumed for these concepts and using two increasingly complex noise simulations. HWO would constrain H$_2$O, O$_2$, and O$_3$, in the atmosphere, with ~ 100 K uncertainty on the temperature profile. LIFE would constrain CO$_2$, H$_2$O, O$_3$ and provide constraints on the thermal atmospheric structure and surface temperature (~ 10 K uncertainty). Both missions would provide an upper limit on CH$_4$. Joint retrievals on HWO and LIFE data would accurately define the atmospheric thermal profile and planetary parameters, decisively constrain CO$_2$, H$_2$O, O$_2$, and O$_3$, and weakly constrain CO and CH$_4$. The detection significance is greater or equal to single-instrument retrievals. Both missions provide specific information to characterize a terrestrial habitable exoplanet, but the scientific yield is maximized with synergistic UV/VIS/NIR+MIR observations. Using HWO and LIFE together will provide stronger constraints on biosignatures and life indicators, potentially transforming the search for life in the universe.",
+                "url": "https://arxiv.org/pdf/2406.13037v1",
+                "published": "2024-06-18 20:04:35+00:00"
+            },
+            {
+                "title": "Large Interferometer For Exoplanets (LIFE): V. Diagnostic potential of a mid-infrared space-interferometer for studying Earth analogs",
+                "authors": [
+                    "Eleonora Alei",
+                    "Björn S. Konrad",
+                    "Daniel Angerhausen",
+                    "John Lee Grenfell",
+                    "Paul Mollière",
+                    "Sascha P. Quanz",
+                    "Sarah Rugheimer",
+                    "Fabian Wunderlich",
+                    "the LIFE collaboration"
+                ],
+                "summary": "An important future goal in exoplanetology is to detect and characterize potentially habitable planets. Using nulling interferometry, LIFE will allow us to constrain the radius and effective temperature of (terrestrial) exoplanets, as well as provide unique information about their atmospheric structure and composition. We explore the potential of LIFE in characterizing emission spectra of Earth at various stages of its evolution. We perform Bayesian retrievals on simulated spectra of 8 different scenarios, which correspond to cloud-free and cloudy spectra of four different epochs of the evolution of the Earth. Assuming a distance of 10 pc and a Sun-like host star, we simulate observations obtained with LIFE using its simulator LIFEsim, considering all major astrophysical noise sources. With the nominal spectral resolution (R=50) and signal-to-noise ratio (assumed to be S/N=10 at 11.2 $μ$m), we can identify the main spectral features of all the analyzed scenarios (most notably CO$_2$, H$_2$O, O$_3$, CH$_4$). This allows us to distinguish between inhabited and lifeless scenarios. Results suggest that particularly O$_3$ and CH$_4$ yield an improved abundance estimate by doubling the S/N from 10 to 20. We conclude that the baseline requirements for R and S/N are sufficient for LIFE to detect O$_3$ and CH$_4$ in the atmosphere of an Earth-like planet with an abundance of O$_2$ of around 2% in volume mixing ratio. This information is relevant in terms of the LIFE mission planning. We also conclude that cloud-free retrievals of cloudy planets can be used to characterize the atmospheric composition of terrestrial habitable planets, but not the thermal structure of the atmosphere. From the inter-model comparison performed, we deduce that differences in the opacity tables (caused by e.g. a different line wing treatment) may be an important source of systematic errors.",
+                "url": "https://arxiv.org/pdf/2204.10041v1",
+                "published": "2022-04-21 11:56:37+00:00"
+            },
+            {
+                "title": "Large Interferometer For Exoplanets (LIFE): IX. Assessing the Impact of Clouds on Atmospheric Retrievals at Mid-Infrared Wavelengths with a Venus-Twin Exoplanet",
+                "authors": [
+                    "B. S. Konrad",
+                    "E. Alei",
+                    "S. P. Quanz",
+                    "P. Mollière",
+                    "D. Angerhausen",
+                    "J. J. Fortney",
+                    "K. Hakim",
+                    "S. Jordan",
+                    "D. Kitzmann",
+                    "S. Rugheimer",
+                    "O. Shorttle",
+                    "R. Wordsworth",
+                    "the LIFE Collaboration"
+                ],
+                "summary": "The Large Interferometer For Exoplanets (LIFE) initiative aims to develop a space based mid-infrared (MIR) nulling interferometer to measure the thermal emission spectra of temperate terrestrial exoplanets.\n  We investigate how well LIFE could characterize a cloudy Venus-twin exoplanet to: (1) test our retrieval routine on a realistic non-Earth-like MIR spectrum of a known planet, (2) investigate how clouds impact retrievals, (3) refine the LIFE requirements derived in previous Earth-centered studies.\n  We run retrievals for simulated LIFE observations of a Venus-twin exoplanet orbiting a Sun-like star located 10 pc from the observer. By assuming different models (cloudy and cloud-free) we analyze the performance as a function of the quality of the LIFE observation. This allows us to determine how well atmosphere and clouds are characterizable depending on the quality of the spectrum.\n  Our study shows that the current minimal resolution ($R=50$) and signal-to-noise ($S/N=10$ at $11.2μ$m) requirements for LIFE suffice to characterize the structure and composition of a Venus-like atmosphere above the cloud deck if an adequate model is chosen. However, we cannot infer cloud properties. The accuracy of the retrieved planet radius ($R_{pl}$), equilibrium temperature ($T_{eq}$), and Bond albedo ($A_B$) depend on the choice of model. Generally, a cloud-free model performs best and thus the presence of clouds cannot be inferred. This model dependence of retrieval results emphasizes the importance of developing a community-wide best-practice for atmospheric retrieval studies. If we consider higher quality spectra (especially $S/N=20$), we can infer the presence of clouds and pose first constraints on their structure.",
+                "url": "https://arxiv.org/pdf/2303.04727v2",
+                "published": "2023-03-08 17:15:09+00:00"
+            },
+            {
+                "title": "Homochirality: a prerequisite or consequence of life?",
+                "authors": [
+                    "Axel Brandenburg"
+                ],
+                "summary": "Many of the building blocks of life such as amino acids and nucleotides are chiral, i.e., different from their mirror image. Contemporary life selects and synthesizes only one of two possible handednesses. In an abiotic environment, however, there are usually equally many left- and right-handed molecules. If homochirality was a prerequisite of life, there must have been physical or chemical circumstances that led to the selection of a certain preference. Conversely, if it was a consequence of life, we must identify possible pathways for accomplishing a transition from a racemic to a homochiral chemistry. After a discussion of the observational evidence, I will review ideas where homochirality of any handedness could emerge as a consequence of the first polymerization events of nucleotides in an emerging RNA world. These mechanisms are not limited to nucleotides, but can also occur for peptides, as a precursor to the RNA world. The question of homochirality is, in this sense, intimately tied to the origin of life. Future Mars missions may be able to detect biomolecules of extant or extinct life. We will therefore also discuss possible experimental setups for determining the chirality of primitive life forms in situ on Mars.",
+                "url": "https://arxiv.org/pdf/2012.12850v1",
+                "published": "2020-12-15 20:03:27+00:00"
+            },
+            {
+                "title": "Large Interferometer For Exoplanets (LIFE): III. Spectral resolution, wavelength range and sensitivity requirements based on atmospheric retrieval analyses of an exo-Earth",
+                "authors": [
+                    "B. S. Konrad",
+                    "E. Alei",
+                    "D. Angerhausen",
+                    "Ó. Carrión-González",
+                    "J. J. Fortney",
+                    "J. L. Grenfell",
+                    "D. Kitzmann",
+                    "P. Mollière",
+                    "S. Rugheimer",
+                    "F. Wunderlich",
+                    "S. P. Quanz",
+                    "the LIFE Collaboration"
+                ],
+                "summary": "Temperate terrestrial exoplanets are likely common objects, but their discovery and characterization is very challenging. Concepts for optimized space missions to overcome these challenges are being studied. The LIFE initiative focuses on the development of a space-based mid-infrared (MIR) nulling interferometer probing the thermal emission of a large sample of exoplanets.\n  We derive first estimates for the signal-to-noise (S/N), spectral resolution (R), and wavelength requirements for LIFE. Using an Earth-twin exoplanet as reference case, we quantify how well planetary/atmospheric properties can be constrained from MIR spectra of different quality.\n  We simulate LIFE observations of an Earth-twin orbiting a G2V star at 10 pc from the Sun with different levels of exozodiacal dust emissions. We combine a cloud-free 1D radiative transfer model and the nested sampling algorithm to retrieve planetary/atmospheric properties from input spectra of different wavelength coverage, R, and S/N.\n  We find that H2O, CO2, and O3 are detectable if S/N$\\geq$10 (uncertainty $\\leq\\pm1.0$ dex). We find upper limits for N2O (abundance $\\leq10^{-3}$). CO, N2, and O2 are unconstrained in all cases. The limit for a CH4 detection is R $= 50$, S/N $=10$. We further correctly determine the exoplanet radius (uncertainty $\\leq\\pm10\\%$), surface temperature (uncertainty $\\leq\\pm20$K), and surface pressure (uncertainty $\\leq\\pm0.5$ dex). With the current LIFE design, the observation time required to reach the specified S/N amounts to $\\sim7$ weeks with 4x2m apertures.\n  We conclude that a minimum wavelength coverage of $4-18.5μ$m, a R of 50 and an S/N of 10 is required. With the current assumptions, the atmospheric characterization of several Earth-like exoplanets at a distance of 10 pc and within a reasonable amount of observing time will require apertures $\\geq2$ meters.",
+                "url": "https://arxiv.org/pdf/2112.02054v2",
+                "published": "2021-12-03 18:11:34+00:00"
+            },
+            {
+                "title": "Origins of Life on Exoplanets",
+                "authors": [
+                    "Paul B. Rimmer"
+                ],
+                "summary": "I show that exoplanets can be used to test origins scenarios. Origins scenarios start with certain initial conditions, proceed via a network of chemical reactions and, if successful, result in a chemistry that is closer to a living system than the initial conditions. Exoplanet environments can be applied to test each of these three aspects of origins scenarios. I show what tests can be applied to the UV-driven cyanosulfidic scenario and how the application of some of these tests has already falsified certain versions of this scenario. Testing initial conditions has replaced certain reactants with others and has affected the overall chemical network underlying the cyanosulfidic scenario. The sequence of reactions the scenario invokes provide a predicted upper limit on the ubiquity of life in the universe that has ample room for improvement. The outcome of the experiments in different environments is part of a predicted distribution of biosignature detections that can be compared to future observed distributions.",
+                "url": "https://arxiv.org/pdf/2305.04911v1",
+                "published": "2023-05-08 17:47:03+00:00"
+            },
+            {
+                "title": "On Modelling Life",
+                "authors": [
+                    "Chris Adami"
+                ],
+                "summary": "We present a theoretical as well as experimental investigation of a population of self-replicating segments of code subject to random mutation and survival of the fittest. Under the assumption that such a system constitutes a minimal system with characteristics of life, we obtain a number of statements on the evolution of complexity and the trade-off between entropy and information.",
+                "url": "https://arxiv.org/pdf/adap-org/9405002v1",
+                "published": "1994-05-16 21:29:01+00:00"
+            },
+            {
+                "title": "An artifcial life approach to studying niche differentiation in soundscape ecology",
+                "authors": [
+                    "David Kadish",
+                    "Sebastian Risi",
+                    "Laura Beloff"
+                ],
+                "summary": "Artificial life simulations are an important tool in the study of ecological phenomena that can be difficult to examine directly in natural environments. Recent work has established the soundscape as an ecologically important resource and it has been proposed that the differentiation of animal vocalizations within a soundscape is driven by the imperative of intraspecies communication. The experiments in this paper test that hypothesis in a simulated soundscape in order to verify the feasibility of intraspecies communication as a driver of acoustic niche differentiation. The impact of intraspecies communication is found to be a significant factor in the division of a soundscape's frequency spectrum when compared to simulations where the need to identify signals from conspecifics does not drive the evolution of signalling. The method of simulating the effects of interspecies interactions on the soundscape is positioned as a tool for developing artificial life agents that can inhabit and interact with physical ecosystems and soundscapes.",
+                "url": "https://arxiv.org/pdf/1907.12812v1",
+                "published": "2019-07-30 09:51:30+00:00"
+            },
+            {
+                "title": "Database of Candidate Targets for the LIFE Mission",
+                "authors": [
+                    "Franziska Menti",
+                    "José A. Caballero",
+                    "Mark C. Wyatt",
+                    "Antonio García Muñoz",
+                    "Keivan G. Stassun",
+                    "Eleonora Alei",
+                    "Markus Demleitner",
+                    "Grant Kennedy",
+                    "Tim Lichtenberg",
+                    "Uwe Schmitt",
+                    "Jessica S. Schonhut-Stasik",
+                    "Haiyang S. Wang",
+                    "Sascha P. Quanz",
+                    "the LIFE Collaboration"
+                ],
+                "summary": "We present the database of potential targets for the Large Interferometer For Exoplanets (LIFE), a space-based mid-infrared nulling interferometer mission proposed for the Voyage 2050 science program of the European Space Agency (ESA). The database features stars, their planets and disks, main astrophysical parameters, and ancillary observations. It allows users to create target lists based on various criteria to predict, for instance, exoplanet detection yields for the LIFE mission. As such, it enables mission design trade-offs, provides context for the analysis of data obtained by LIFE, and flags critical missing data. Work on the database is in progress, but given its relevance to LIFE and other space missions, including the Habitable Worlds Observatory (HWO), we present its main features here. A preliminary version of the LIFE database is publicly available on the German Astrophysical Virtual Observatory (GAVO).",
+                "url": "https://arxiv.org/pdf/2410.23892v1",
+                "published": "2024-10-31 12:53:36+00:00"
+            }
+        ],
+        "pubmed": [
+            {
+                "pmid": "41359354",
+                "title": "Untargeted Metabolomics for Forensic Body Fluid Identification-A Pilot Study.",
+                "abstract": "Determining the bodily origin of biological traces is a valuable tool in forensic investigations as it helps corroborate testimonies, reconstruct crime-related activities, and select relevant samples for further analysis. Current body fluid identification (BFI) methods rely on enzymatic, spectroscopic, and chemical tests, which are often limited in sensitivity and specificity. Recent research has explored novel markers for BFI, for instance metabolites, based on their potential body fluid/tissue specificity. Metabolites are small molecules produced by human and microbial cellular processes that can be measured using advanced techniques like gas chromatography-mass spectrometry (GC-MS) and liquid chromatography-mass spectrometry (LC-MS). These methodologies remain underexplored for the identification of forensically relevant body fluids/tissues. In this pilot study, we employed a high-resolution, untargeted LC-quadrupole time-of-flight (QTOF)-MS approach to investigate body fluid/tissue specific markers from nine biological fluids/tissues, including feces, fingerprick blood, menstrual blood, saliva, semen, skin from palms, urine, vaginal fluid and venous blood. We used sparse partial least-squares discriminant analysis (sPLS-DA) to identify key features responsible for body fluid/tissue-specific clustering and generalized local learning (GLL) to select features directly associated with specific body fluids/tissues. Lastly, we present nine predictive features, one for each fluid/tissue, demonstrating that our approach has the potential to be used in forensic casework."
+            },
+            {
+                "pmid": "41355325",
+                "title": "Distinct 5' UTR Requirements for Translation of the Bicistronic X/P mRNA Among Avian Orthobornaviruses.",
+                "abstract": "Orthobornaviruses express X and the phosphoprotein (P) from a bicistronic X/P mRNA, and these proteins regulate polymerase activity. In mammalian orthobornaviruses, the 5' untranslated region (5' UTR) of the X/P mRNA controls the translational balance between X and P and thereby promotes efficient replication. Avian bornaviruses (ABVs) belong to two clades, clade-2 and -3, that differ in the structure and length of the 5' UTR of the X/P mRNA. However, the functional consequences of these differences remain unclear. Using reverse genetics, we generated chimeric viruses by reciprocally exchanging the 5' UTR of the X/P mRNA among clade 2 parrot bornavirus 5 (PaBV-5) and aquatic bird bornavirus 1 (ABBV-1) and clade 3 PaBV-4. In PaBV-5, a long 5' UTR with a stem-loop and an upstream ORF was required to maintain the X-to-P translational balance. On the other hand, replacing the 5' UTR of the X/P mRNA from PaBV-5 with that from PaBV-4 reduced X expression and markedly impaired viral growth. However, PaBV-4 tolerated the 5' UTR of the X/P mRNA from PaBV-5 without detectable effects on translation or replication, which suggests that translation of PaBV-4 X/P mRNA does not depend on the origin of the 5' UTR. Furthermore, ABBV-1 replicated efficiently with the 5' UTR of the X/P mRNA from PaBV-5 but was strongly attenuated with that from PaBV-4. Taken together, these results demonstrate a clade-dependent requirement for the 5' UTR for translation of the X/P mRNA and provide novel insights into the evolution of translational control in orthobornaviruses."
+            },
+            {
+                "pmid": "41354900",
+                "title": "The value of magnetic resonance imaging in forensic investigation: a mapping review.",
+                "abstract": "N/A"
+            },
+            {
+                "pmid": "41354286",
+                "title": "Prenatal exposure to air pollution and infant cognitive development using an eye-tracking Visual Paired-Comparison task.",
+                "abstract": "Although the prenatal life is a critical period for brain development, very few studies have focused on prenatal exposure to air pollution in relation to infant cognition, and most studies have relied on carer-reported outcome assessment. We examined the association between prenatal exposure to air pollution and objective measurement of infant cognitive development using an eye-tracking methodology. The study was based on data from a subset of 168 mother-child pairs participating in the Barcelona Life Study Cohort (BiSC), Spain (2018-2023). Total exposure to nitrogen dioxide (NO<sub>2</sub>), black carbon (BC), particulate matter (PM<sub>2.5</sub>), and PM<sub>2.5</sub> copper (Cu) and iron (Fe) content during pregnancy were assessed through integrating estimates of land-use regression (LUR) models with data on time spent at home, workplace, and during commuting. Cognitive performance was assessed longitudinally at 6 months (n=156) and 18 months (n=62) of age through an eye-tracking Visual Paired-Comparison (VPC) task that measured short-term recognition memory for faces. Linear mixed models were applied to explore the association between prenatal air pollution exposure and the percentage looking time at novel compared to familiar stimuli on the VPC task, adjusting for potential confounders. Results showed worse cognitive performance with increasing air pollution exposure: For each interquartile range increase of NO<sub>2</sub>, BC, PM<sub>2.5</sub>, Cu and Fe, novelty preference decreased with -2.0 (95% CI: -4.7, 0.6), -2.5 (-4.6, -0.5), -3.9 (-7.0, -0.9), -2.1 (-4.0, -0.3), and -1.4 (-3.2, 0.3), respectively. There were suggestions for potentially stronger associations in boys. The findings highlight the pregnancy period as a window of vulnerability for the impact of air pollution on the developing brain, and values eye-tracking as an objective non-invasive tool for early detection of such impact."
+            },
+            {
+                "pmid": "41354079",
+                "title": "Conflicting Phylogenetic Signals between the Nuclear Ribosomal and Plastome DNA as Evidence for Hybrid Origin of the Tetraploid Member of <i>Salicornia</i> (Amaranthaceae s.l.).",
+                "abstract": "Species of the genus <i>Salicornia</i> (Amaranthaceae&#xa0;s.l.) are globally distributed and highly salt-tolerant. They are used as food and for biofuel production. Formation of pure lines through self-pollination, combined with sporadic cross-pollination, polyploidy, high phenotypic plasticity, and a limited number of diagnostic characters, significantly complicates taxonomy of the genus. <i>Salicornia</i> (glassworts) is an evolutionarily young group, where the number of informative substitutions in the traditionally analyzed regions of nuclear and plastid DNA is insufficient to establish relationships between the species. The very concept of a species in this genus remains a subject of debate. To clarify relationships among the Eastern European species, we used high-throughput sequencing to determine sequences and perform phylogenetic analysis of the plastomes of 11 samples representing all major morphotypes of Eastern European glassworts. We also analyzed variability of the nuclear rDNA external transcribed spacer (nrETS). The sizes of the assembled plastomes ranged from 153,290&#xa0;bp to 153,504&#xa0;bp and exhibited a typical architecture with a large single-copy region (84,625-84,797&#xa0;bp), a small single-copy region (18,818-18,870&#xa0;bp), and two inverted repeats (24,898-24,908&#xa0;bp). Comparison of phylogenetic trees reconstructed from all currently available plastome data and nrETS alignments of the same glasswort accessions revealed a discrepancy in the placement of the tetraploid <i>S.&#xa0;procumbens</i> subsp. <i>pojarkovae</i> and <i>S.&#xa0;brachiata</i> accessions, which show affinities to different lineages depending on the use of either plastid or nuclear (nrETS) data. Our results highlight the role of reticulate evolution in the genus <i>Salicornia</i>."
+            },
+            {
+                "pmid": "41354007",
+                "title": "Analysis of different cultivars and origins of Chinese cigar tobacco leaves based on headspace solid phase microextraction-gas chromatography-high resolution mass spectrometry combined with multivariate statistical methods.",
+                "abstract": "Cigar tobacco leaves are a crucial factor influencing the quality of cigars, as they are an important component in cigar production. In this study, a novel method of headspace solid phase microextraction-gas chromatography-high resolution mass spectrometry (HS-SPME-GCHRMS) was developed for the analysis of cigar tobacco leaves via systematic evaluation of extraction techniques and chromatographic parameters. Six cultivars from Sichuan Province and one cultivar from nine geographical origins (Hubei, Hainan, Sichuan, and Yunnan) were analyzed. A total of 12 types of volatile organic compounds (VOCs) were detected from all samples, including esters, ketones, phenols, acids, alcohols, aldehydes, alkanes, terpenes, benzenoids, heterocyclics, nicotine derivatives, and others. Among these, nicotine derivatives dominated. Multivariate statistical methods such as linear discriminant analysis (LDA), principal component analysis (PCA) and orthogonal partial least squares discriminant analysis (OPLS-DA) have been utilized to effectively discriminate between different cultivars and geographical origins of cigar tobacco leaves. A range of key differential compounds were revealed via variable importance in projection (VIP) analysis, including nicotyrine, 4,4'-bipyridine, cyperen-8-one, methyl tridecanoate and cotinine. These findings demonstrated that the VOCs of cigar tobacco leaves were significantly affected by both genotype (cultivar difference) and terroir (geography), suggesting that HS-SPME-GCHRMS coupled with multivariate statistical methods is a robust platform for varietal identification, geographical origin, and quality control in cigar tobacco leaves."
+            },
+            {
+                "pmid": "41353865",
+                "title": "Chiral induced spin selectivity effect: A review of materials, mechanisms, and application exploration.",
+                "abstract": "The diversity of chiral molecules is due to their unique asymmetric structure. Although the physical and chemical properties of enantiomers may be similar, their optical and biological activities are often very different or even opposite. From the selection of chiral molecules in life to the design of modern materials with specific chiral functions, chirality has always been a long-standing research topic. Every exploration of chiral science promotes human understanding of the world and the advancement of science and technology. The chiral-induced spin-selective (CISS) effect is a breakthrough in the study of chiral molecules in recent years, which reveals the relationship between chiral molecules and electron spins from a unique perspective. Due to the CISS effect, chiral materials selectively filter electrons with a specific spin direction (spin polarization), thereby achieving spin regulation without the need for an external magnetic field. Therefore, the CISS effect provides a new exploration space for chiral recognition, asymmetric synthesis, origin of life, chiral electrocatalysis, and chemical reaction monitoring. This review summarizes the basic principles, development history, theoretical basis, research status and development trends of the CISS effect in chiral materials, and prospects the research status of the CISS effect in related fields."
+            },
+            {
+                "pmid": "41353551",
+                "title": "Pedal effect: aerobic and facultative anaerobic Enterobacter hormaechei maintain the homeostasis of the house fly gut microbiota under different oxygen conditions.",
+                "abstract": "N/A"
+            },
+            {
+                "pmid": "41352567",
+                "title": "Phytochemical diversity, extraction techniques, and therapeutic potential of Erica species.",
+                "abstract": "This review systematically examines the scientific literature on the genus Erica (heathers), with a focus on their phytochemical diversity and pharmacological potential. The objective is to critically analyze how extraction methods and species origin influence the profiles of bioactive compounds responsible for therapeutic effects. A comprehensive evaluation of phytochemical data is presented for widely studied species, including Erica arborea, Erica andevalensis, Erica australis, Erica manipuliflora, Erica cinerea, Erica verticillata, Erica carnea, Erica scoparia, Erica spiculifolia, Erica multiflora, and Erica mannii. Evidence indicates that extraction techniques and solvent polarity strongly affect the yield and diversity of secondary metabolites such as phenolic acids, flavonoids, and terpenoids, which are associated with antioxidant, anti-inflammatory, antimicrobial, diuretic, and anticancer activities. Importantly, this review highlights pronounced taxonomic and geographic sampling biases: most studies focus on European and Mediterranean Erica species, with very limited representation from Africa despite its exceptional species richness. These findings emphasize the need to optimize extraction protocols and expand research to underrepresented taxa. Overall, this synthesis underscores the therapeutic promise of Erica species and provides a foundation for future drug discovery efforts guided by phytochemical characterization and bioactivity screening."
+            },
+            {
+                "pmid": "41352522",
+                "title": "The Natural history of the transition between RNA to DNA in the early stages of life.",
+                "abstract": "In this work we examine different hypotheses for the fixation of DNA as the principal informational molecule. The emergence of protein RNA-dependent RNA polymerases heralded the beginning of a process that ultimately culminated in the transition from RNA to DNA as the primary informational molecule. To understand this pivotal transition, it is necessary to examine the evolutionary history of nucleic acid polymerases, with particular emphasis on RNA-dependent RNA polymerases, RNA-dependent DNA polymerases, and DNA-dependent DNA polymerases. Instead of resolving the debates over single versus multiple origins of DNA, we adhere to the need to conceptualize early evolution as a dynamic network, driven by horizontal transfer, molecular innovation, and symbiosis between cells and viruses."
+            }
+        ]
+    },
+    "astronomical": {
+        "arxiv": [
+            {
+                "title": "Keplerian Orbits and Dynamics of Exoplanets",
+                "authors": [
+                    "Carl D. Murray",
+                    "Alexandre C. M. Correia"
+                ],
+                "summary": "Understanding the consequences of the gravitational interaction between a star and a planet is fundamental to the study of exoplanets. The solution of the two-body problem shows that the planet moves in an elliptical path around the star and that each body moves in an ellipse about the common center of mass. The basic properties of such a system are derived from first principles and described in the context of detecting exoplanets.",
+                "url": "https://arxiv.org/pdf/1009.1738v2",
+                "published": "2010-09-09 11:12:26+00:00"
+            },
+            {
+                "title": "Atmospheric Retrieval of Exoplanets",
+                "authors": [
+                    "Nikku Madhusudhan"
+                ],
+                "summary": "Exoplanetary atmospheric retrieval refers to the inference of atmospheric properties of an exoplanet given an observed spectrum. The atmospheric properties include the chemical compositions, temperature profiles, clouds/hazes, and energy circulation. These properties, in turn, can provide key insights into the atmospheric physicochemical processes of exoplanets as well as their formation mechanisms. Major advancements in atmospheric retrieval have been made in the last decade, thanks to a combination of state-of-the-art spectroscopic observations and advanced atmospheric modeling and statistical inference methods. These developments have already resulted in key constraints on the atmospheric H2O abundances, temperature profiles, and other properties for several exoplanets. Upcoming facilities such as the JWST will further advance this area. The present chapter is a pedagogical review of this exciting frontier of exoplanetary science. The principles of atmospheric retrievals of exoplanets are discussed in detail, including parametric models and statistical inference methods, along with a review of key results in the field. Some of the main challenges in retrievals with current observations are discussed along with new directions and the future landscape.",
+                "url": "https://arxiv.org/pdf/1808.04824v1",
+                "published": "2018-08-14 18:00:01+00:00"
+            },
+            {
+                "title": "Exoplanet Catalogues",
+                "authors": [
+                    "Jessie L. Christiansen"
+                ],
+                "summary": "One of the most exciting developments in the field of exoplanets has been the progression from 'stamp-collecting' to demography, from discovery to characterisation, from exoplanets to comparative exoplanetology. There is an exhilaration when a prediction is confirmed, a trend is observed, or a new population appears. This transition has been driven by the rise in the sheer number of known exoplanets, which has been rising exponentially for two decades (Mamajek 2016). However, the careful collection, scrutiny and organisation of these exoplanets is necessary for drawing robust, scientific conclusions that are sensitive to the biases and caveats that have gone into their discovery. The purpose of this chapter is to discuss and demonstrate important considerations to keep in mind when examining or constructing a catalogue of exoplanets. First, we introduce the value of exoplanetary catalogues. There are a handful of large, online databases that aggregate the available exoplanet literature and render it digestible and navigable - an ever more complex task with the growing number and diversity of exoplanet discoveries. We compare and contrast three of the most up-to-date general catalogues, including the data and tools that are available. We then describe exoplanet catalogues that were constructed to address specific science questions or exoplanet discovery space. Although we do not attempt to list or summarise all the published lists of exoplanets in the literature in this chapter, we explore the case study of the NASA Kepler mission planet catalogues in some detail. Finally, we lay out some of the best practices to adopt when constructing or utilising an exoplanet catalogue.",
+                "url": "https://arxiv.org/pdf/1803.11158v1",
+                "published": "2018-03-29 17:06:11+00:00"
+            },
+            {
+                "title": "Spectra as Windows into Exoplanet Atmospheres",
+                "authors": [
+                    "Adam Burrows"
+                ],
+                "summary": "Understanding a planet's atmosphere is a necessary condition for understanding not only the planet itself, but also its formation, structure, evolution, and habitability, This puts a premium on obtaining spectra, and developing credible interpretative tools with which to retrieve vital planetary information. However, for exoplanets these twin goals are far from being realized. In this paper, I provide a personal perspective on exoplanet theory and remote sensing via photometry and low-resolution spectroscopy. Though not a review in any sense, this paper highlights the limitations in our knowledge of compositions, thermal profiles, and the effects of stellar irradiation, focussing on, but not restricted to, transiting giant planets. I suggest that the true function of the recent past of exoplanet atmospheric research has been not to constrain planet properties for all time, but to train a new generation of scientists that, by rapid trial and error, is fast establishing a solid future foundation for a robust science of exoplanets.",
+                "url": "https://arxiv.org/pdf/1312.2009v1",
+                "published": "2013-12-06 21:00:04+00:00"
+            },
+            {
+                "title": "Using asteroseismology to characterise exoplanet host stars",
+                "authors": [
+                    "Mia S. Lundkvist",
+                    "Daniel Huber",
+                    "Victor Silva Aguirre",
+                    "William J. Chaplin"
+                ],
+                "summary": "The last decade has seen a revolution in the field of asteroseismology - the study of stellar pulsations. It has become a powerful method to precisely characterise exoplanet host stars, and as a consequence also the exoplanets themselves. This synergy between asteroseismology and exoplanet science has flourished in large part due to space missions such as $\\textit{Kepler}$, which have provided high-quality data that can be used for both types of studies. Perhaps the primary contribution from asteroseismology to the research on transiting exoplanets is the determination of very precise stellar radii that translate into precise planetary radii, but asteroseismology has also proven useful in constraining eccentricities of exoplanets as well as the dynamical architecture of planetary systems. In this contribution, we introduce some basic principles of asteroseismology and review current synergies between the two fields.",
+                "url": "https://arxiv.org/pdf/1804.02214v2",
+                "published": "2018-04-06 11:56:37+00:00"
+            },
+            {
+                "title": "Instrumentation for the detection and characterization of exoplanets",
+                "authors": [
+                    "Francesco Pepe",
+                    "David Ehrenreich",
+                    "Michael R. Meyer"
+                ],
+                "summary": "In no other field of astrophysics has the impact of new instrumentation been as substantial as in the domain of exoplanets. Before 1995 our knowledge about exoplanets was mainly based on philosophical and theoretical considerations. The following years have been marked, instead, by surprising discoveries made possible by high-precision instruments. More recently the availability of new techniques moved the focus from detection to the characterization of exoplanets. Next-generation facilities will produce even more complementary data that will lead to a comprehensive view of exoplanet characteristics and, by comparison with theoretical models, to a better understanding of planet formation.",
+                "url": "https://arxiv.org/pdf/1409.5266v1",
+                "published": "2014-09-18 11:35:46+00:00"
+            },
+            {
+                "title": "Trojan Exoplanets",
+                "authors": [
+                    "Philippe Robutel",
+                    "Adrien Leleu"
+                ],
+                "summary": "Co-orbital exoplanets are a by-product of the models of formation of planetary systems. However, none have been detected in nature thus far. Although challenging, the observation of co-orbital exoplanets would provide valuable information on the formation of planetary systems as well as on the interactions between planets and their host star. After a brief review of the stability and formation issues of co-orbital systems, some observational methods dedicated to their detection are presented.",
+                "url": "https://arxiv.org/pdf/2402.15168v1",
+                "published": "2024-02-23 08:04:21+00:00"
+            },
+            {
+                "title": "Exoplanet Atmospheres at High Spectral Resolution",
+                "authors": [
+                    "J. L. Birkby"
+                ],
+                "summary": "The spectrum of an exoplanet reveals the physical, chemical, and biological processes that have shaped its history and govern its future. However, observations of exoplanet spectra are complicated by the overwhelming glare of their host stars. This review chapter focuses on high resolution spectroscopy (HRS; R=25,000-100,000), which helps to disentangle and isolate the exoplanet's spectrum. At high spectral resolution, molecular features are resolved into a dense forest of individual lines in a pattern that is unique for a given molecule. For close-in planets, the spectral lines undergo large Doppler shifts during the planet's orbit, while the host star and Earth's spectral features remain essentially stationary, enabling a velocity separation of the planet. For slower-moving, wide-orbit planets, HRS aided by high contrast imaging instead isolates their spectra using their spatial separation. The lines in the exoplanet spectrum are detected by comparing them with high resolution spectra from atmospheric modelling codes; essentially a form of fingerprinting for exoplanet atmospheres. This measures the planet's orbital velocity, and helps define its true mass and orbital inclination. Consequently, HRS can detect both transiting and non-transiting planets. It also simultaneously characterizes the planet's atmosphere due to its sensitivity to the depth, shape, and position of the planet's spectral lines. These are altered by the planet's atmospheric composition, structure, clouds, and dynamics, including day-to-night winds and its rotation period. This chapter describes the HRS technique in detail, highlighting its successes in exoplanet detection and characterization, and concludes with the future prospects of using HRS to identify biomarkers on nearby rocky worlds, and map features in the atmospheres of giant exoplanets.",
+                "url": "https://arxiv.org/pdf/1806.04617v1",
+                "published": "2018-06-12 15:54:35+00:00"
+            },
+            {
+                "title": "Exoplanet Chemistry",
+                "authors": [
+                    "Katharina Lodders"
+                ],
+                "summary": "The terrestrial and gas-giant planets in our solar system may represent some prototypes for planets around other stars; the exoplanets because most stars have similar overall elemental abundances as our sun. The solar system  planets represent at least four chemical planet types, depending on the phases that make them: Terrestrial-like planets made of rock (metal plus silicates), Plutonian planets made of rock and ice, Neptunian giant planets of rocky, icy with low H and He contents, and  Jovian gas-giant planets of rocky, icy planets with near-solar H and He contents. The planetary compositions are linked to the chemical fractionation in the planetary accretion disks. Chemical tracers of these fractionations are described. Many known exoplanets are gas-giant planets with up to several Jupiter-masses and their atmospheric chemistry is compared to that of brown dwarfs. Exoplanets in close orbits around their host stars may resemble hot brown dwarfs (L-dwarfs). Planets receiving less radiation form their host may compare more to the methane-rich T dwarfs. The cloud layers resulting from condensation of oxides, metal, sulfides, and salts in these hot and cool gas giant planets and their chemical tracers are described.",
+                "url": "https://arxiv.org/pdf/0910.0811v2",
+                "published": "2009-10-05 17:40:08+00:00"
+            },
+            {
+                "title": "Tidal Evolution of Exoplanets",
+                "authors": [
+                    "Alexandre C. M. Correia",
+                    "Jacques Laskar"
+                ],
+                "summary": "Tidal effects arise from differential and inelastic deformation of a planet by a perturbing body. The continuous action of tides modify the rotation of the planet together with its orbit until an equilibrium situation is reached. It is often believed that synchronous motion is the most probable outcome of the tidal evolution process, since synchronous rotation is observed for the majority of the satellites in the Solar System. However, in the 19th century, Schiaparelli also assumed synchronous motion for the rotations of Mercury and Venus, and was later shown to be wrong. Rather, for planets in eccentric orbits synchronous rotation is very unlikely. The rotation period and axial tilt of exoplanets is still unknown, but a large number of planets have been detected close to the parent star and should have evolved to a final equilibrium situation. Therefore, based on the Solar System well studied cases, we can make some predictions for exoplanets. Here we describe in detail the main tidal effects that modify the secular evolution of the spin and the orbit of a planet. We then apply our knowledge acquired from Solar System situations to exoplanet cases. In particular, we will focus on two classes of planets, \"Hot-Jupiters\" (fluid) and \"Super-Earths\" (rocky with atmosphere).",
+                "url": "https://arxiv.org/pdf/1009.1352v2",
+                "published": "2010-09-07 17:54:11+00:00"
+            }
+        ],
+        "pubmed": [
+            {
+                "pmid": "41356077",
+                "title": "Fundamentals of Interior Modelling and Challenges in the Interpretation of Observed Rocky Exoplanets.",
+                "abstract": "Most our knowledge about rocky exoplanets is based on their measure of mass and radius. These two parameters are routinely measured and are used to categorise different populations of observed exoplanets. They are also tightly linked to the planet's properties, in particular those of the interior. As such they offer the unique opportunity to interpret the observations and potentially infer the planet's chemistry and structure. Required for the interpretation are models of planetary interiors, calculated a priori, constrained using other available data, and based on the physiochemical properties of mineralogical phases. This article offers an overview of the current knowledge about exoplanet interiors, the fundamental aspects and tools for interior modelling and how to improve the contraints on the models, along with a discussion on the sources of uncertainty. The origin and fate of volatiles, and their role in planetary evolution is discussed. The chemistry and structure of planetary interiors have a pivotal role in the thermal evolution of planets and the development of large scale properties that might become observables with future space missions and ground-based surveys. As such, having reliable and well constrained interior models is of the utmost importance for the advancement of the field."
+            },
+            {
+                "pmid": "41318695",
+                "title": "Measuring the magnetic fields in the chromospheres of low-mass stars.",
+                "abstract": "Magnetic fields in the upper atmospheres of solar-like stars are believed to provide an enormous amount of energy to power the hot coronae and drive large-scale eruptions that could impact the habitability of planetary systems around these stars. However, these magnetic fields have never been routinely measured on stars beyond the solar system. Through decade-long spectropolarimetric observations, we have now achieved the measurements of magnetic fields in the lower and middle chromospheres of three M-dwarfs. Our results indicate that the line-of-sight component of the chromospheric magnetic fields can reach up to hundreds of Gauss, whose sign frequently opposes that of the photospheric field. The measurements highlight the magnetic field complexity and the variation with height close to the surface of these M-dwarfs. They provide critical constraints on the energy budget responsible for heating and eruptions of stellar upper atmospheres, and enable assessments of how stellar magnetic activity may affect exoplanet environments."
+            },
+            {
+                "pmid": "41296844",
+                "title": "Large-amplitude variability driven by giant dust storms on a planetary-mass companion.",
+                "abstract": "Large-amplitude variations are commonly observed in the atmospheres of directly imaged exoplanets and brown dwarfs. VHS 1256B, the most variable known planet-mass object, exhibits a near-infrared flux change of nearly 40%, with red color and silicate features revealed in recent JWST spectra, challenging current theories. Using a general circulation model, we demonstrate that VHS 1256B's atmosphere is dominated by planetary-scale dust storms persisting for tens of days, with large patchy clouds propagating with equatorial waves. This weather pattern, distinct from the banded structures seen on solar system giants, simultaneously explains the observed spectra and critical features in the rotational light curves, including the large amplitude, irregular evolution, and wavelength dependence, as well as the variability trends observed in near-infrared color-magnitude diagrams of dusty substellar atmospheres."
+            },
+            {
+                "pmid": "41283722",
+                "title": "State-selective fragmentation of singly ionized HNCS: Experiment and theory.",
+                "abstract": "We report a combined experimental and theoretical investigation into the fragmentation dynamics of the HNCS+ ion formed by single photon ionization, with relevance to its possible occurrence in astrochemical environments. Using valence electron-ion coincidence spectroscopy at He I&#x3b1; (21.22&#xa0;eV) and He II&#x3b1; (40.81&#xa0;eV) photon energies, along with complementary threshold photoelectron-photoion coincidence data, we identify electronic state specific dissociation channels involved in the molecular breakup. Electron spectra correlated with individual fragment ions form the basis of a breakdown diagram and, in conjunction with the valence photoelectron spectrum of HNCS, lead to the observation of an energy-dependent predissociation process. High-level calculated dissociation limits and cuts through the six-dimensional potential energy surfaces of the electronic states of the HNCS+ cation are compared to the experimental data. This makes it possible to suggest the unimolecular fragmentation pathways undergone by HNCS upon ionization and provides new kinetic information on HNCS+ ions, which will contribute to the refinement of astrochemical reaction network models. In particular, sulfur-containing species such as HNCS are increasingly recognized as potential tracers, for instance, in the atmospheres of M-dwarf exoplanets, where sulfur chemistry may play a key role in defining planetary habitability."
+            },
+            {
+                "pmid": "41252703",
+                "title": "A gas-phase kinetic study of the N(<sup>2</sup>D) + CH<sub>3</sub>CCH and N(<sup>2</sup>D) + CH<sub>3</sub>CN reactions.",
+                "abstract": "The chemistry of planetary atmospheres containing molecular nitrogen as a major atmospheric component is strongly influenced by the reactions of atomic nitrogen. Although nitrogen atoms in their ground electronic state N(<sup>4</sup>S) are mostly unreactive towards stable molecules, electronically excited nitrogen atoms N(<sup>2</sup>D) are much more reactive and could play an important role in the formation of nitriles and other nitrogen bearing organic molecules in planetary atmospheres such as Titan. Despite this, few kinetic studies of N(<sup>2</sup>D) reactions have been performed over the appropriate low temperature range. Here, we report the results of an experimental study of the reactions N(<sup>2</sup>D) + methylacetylene, CH<sub>3</sub>CCH, and N(<sup>2</sup>D) + acetonitrile, CH<sub>3</sub>CN, using a supersonic flow reactor at selected temperatures between 50 K and 296 K. N(<sup>2</sup>D) atoms, which were generated indirectly as a product of the C(<sup>3</sup>P) + NO reaction, were subsequently detected by laser induced fluorescence in the vacuum ultraviolet wavelength region. The measured rate constants are significantly larger than the estimated values in current photochemical models and do not display large variations as a function of temperature. The new rate constants are included in a 1D coupled ion-neutral model of Titan's atmosphere to test their influence on the simulated species abundances. In addition, the overall description of both reactions is improved by considering the results of recent experimental and theoretical work examining the product channels of these processes. These simulations indicate that while the N(<sup>2</sup>D) + CH<sub>3</sub>CCH reaction has only a limited overall influence on Titan's atmospheric chemistry, the N(<sup>2</sup>D) + CH<sub>3</sub>CN reaction could lead to the formation of significant relative abundances of cyanomethamine, HNCHCN, in the upper atmosphere."
+            },
+            {
+                "pmid": "41251576",
+                "title": "Dramatic Atmosphere: Exoplanet TOI-561 b has air where none should persist.",
+                "abstract": "N/A"
+            },
+            {
+                "pmid": "41224998",
+                "title": "Radio burst from a stellar coronal mass ejection.",
+                "abstract": "Coronal mass ejections (CMEs) are massive expulsions of magnetized plasma from a star and are the largest contributors to space weather in the Solar System<sup>1,2</sup>. CMEs play an important role in planetary atmospheric erosion, especially for planets that are close to their host star<sup>3-5</sup>. However, this conclusion remains controversial as there has not been an unambiguous detection of a CME from a star outside our Sun. Previous stellar CME studies have only inferred the presence of a CME through the detection of other types of stellar eruptive event<sup>6-9</sup>. A signature of a fast CME is a type II radio burst<sup>10,11</sup>, which is emitted from the shock wave produced as the CME travels through the stellar corona into interplanetary space. Here we report an analogue to a type II burst from the early M dwarf StKM 1-1262. The burst exhibits identical frequency, time and polarization properties to fundamental plasma emission from a solar type II burst. We demonstrate that the rate of these events with similar radio luminosity from M dwarfs is <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mn>0.8</mml:mn> <mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow> <mml:mrow><mml:mo>-</mml:mo> <mml:mn>0.69</mml:mn></mml:mrow> <mml:mrow><mml:mo>+</mml:mo> <mml:mn>1.94</mml:mn></mml:mrow> </mml:msubsup> <mml:mo>&#xd7;</mml:mo> <mml:mn>1</mml:mn> <mml:msup><mml:mrow><mml:mn>0</mml:mn></mml:mrow> <mml:mrow><mml:mo>-</mml:mo> <mml:mn>3</mml:mn></mml:mrow> </mml:msup> </mml:mrow> </mml:math> per day per star. Our detection implies that we are no longer restricted to extrapolating the solar CME kinematics and rates to other stars, allowing us to establish observational limits on the impact of CMEs on exoplanets."
+            },
+            {
+                "pmid": "41162723",
+                "title": "To make water, exoplanets might just need some pressure.",
+                "abstract": "N/A"
+            },
+            {
+                "pmid": "41162720",
+                "title": "Building wet planets through high-pressure magma-hydrogen reactions.",
+                "abstract": "Close-in transiting sub-Neptunes are abundant in our Galaxy<sup>1</sup>. Planetary interior models based on their observed radius-mass relationship suggest that sub-Neptunes contain a discernible amount of either hydrogen (dry planets) or water (wet planets) blanketing a core composed of rocks and metal<sup>2</sup>. Water-rich sub-Neptunes have been believed to form farther from the star and then migrate inwards to their present orbits<sup>3</sup>. Here we report experimental evidence of reactions between warm, dense hydrogen fluid and silicate melt that release silicon from the magma to form alloys and hydrides at high pressures. We found that oxygen liberated from the silicate melt reacts with hydrogen, producing an appreciable amount of water up to a few tens of weight per cent, which is much greater than previously predicted based on low-pressure ideal gas extrapolation<sup>4,5</sup>. Consequently, these reactions can generate a spectrum of water contents in hydrogen-rich planets, with the potential to reach water-rich compositions for some sub-Neptunes, implying an evolutionary relationship between hydrogen-rich and water-rich planets. Therefore, detection of a large amount of water in exoplanet atmospheres may not be the optimal evidence for planet migration in the protoplanetary disk, calling into question the assumed link between composition and planet formation location."
+            },
+            {
+                "pmid": "41145813",
+                "title": "How to understand exoplanets - space scientists call on lab-based chemists to help.",
+                "abstract": "N/A"
+            }
+        ]
+    }
+}

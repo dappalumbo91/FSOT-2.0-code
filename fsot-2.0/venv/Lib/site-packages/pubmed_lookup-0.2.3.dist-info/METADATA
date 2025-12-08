@@ -1,0 +1,287 @@
+Metadata-Version: 2.0
+Name: pubmed-lookup
+Version: 0.2.3
+Summary: Lookup PubMed records and make Publication objects with info about a scientific publication
+Home-page: https://github.com/mfcovington/pubmed-lookup
+Author: Michael F. Covington
+Author-email: mfcovington@gmail.com
+License: BSD License
+Keywords: citations lab literature pmid publications pubmed science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: biopython (>=1.66)
+Requires-Dist: xmltodict (>=0.9.2)
+
+*************
+pubmed-lookup
+*************
+
+
+.. image:: https://badge.fury.io/py/pubmed-lookup.svg
+    :target: http://badge.fury.io/py/pubmed-lookup
+    :alt: PyPI Version
+
+.. image:: https://travis-ci.org/mfcovington/pubmed-lookup.svg?branch=master
+    :target: https://travis-ci.org/mfcovington/pubmed-lookup
+    :alt: Build Status
+
+.. image:: https://coveralls.io/repos/mfcovington/pubmed-lookup/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/mfcovington/pubmed-lookup?branch=master
+    :alt: Test Coverage
+
+.. image:: https://img.shields.io/pypi/dm/pubmed-lookup.svg
+   :target: https://pypi.python.org/pypi/pubmed-lookup#downloads
+   :alt: Monthly PyPI Downloads
+
+.. image:: https://img.shields.io/pypi/pyversions/pubmed-lookup.svg
+   :alt: Compatible Python Versions
+
+.. image:: https://img.shields.io/pypi/l/pubmed-lookup.svg
+   :alt: License
+
+
+``pubmed-lookup`` is a Python package to lookup PubMed records and make Publication objects with info about a scientific publication.
+
+Source code is available on GitHub at `mfcovington/pubmed-lookup <https://github.com/mfcovington/pubmed-lookup>`_.
+
+.. contents:: :local:
+
+
+Installation
+============
+
+**PyPI**
+
+.. code-block:: sh
+
+    pip install pubmed-lookup
+
+**GitHub (development branch)**
+
+.. code-block:: sh
+
+    pip install git+http://github.com/mfcovington/pubmed-lookup.git@develop
+
+
+Usage
+=====
+
+- Retrieve a PubMed record:
+
+  .. code-block:: python
+
+      from pubmed_lookup import PubMedLookup
+
+      # NCBI will contact user by email if excessive queries are detected
+      email = ''
+      url = 'http://www.ncbi.nlm.nih.gov/pubmed/22331878'
+      lookup = PubMedLookup(url, email)
+
+
+- Create a Publication object:
+
+  .. code-block:: python
+
+      from pubmed_lookup import Publication
+
+      publication = Publication(lookup)    # Use 'resolve_doi=False' to keep DOI URL
+
+
+- Access the Publication object's attributes:
+
+  .. code-block:: python
+
+      print(
+      """
+      TITLE:\n{title}\n
+      AUTHORS:\n{authors}\n
+      JOURNAL:\n{journal}\n
+      YEAR:\n{year}\n
+      MONTH:\n{month}\n
+      DAY:\n{day}\n
+      URL:\n{url}\n
+      PUBMED:\n{pubmed}\n
+      CITATION:\n{citation}\n
+      MINICITATION:\n{mini_citation}\n
+      ABSTRACT:\n{abstract}\n
+      """
+      .format(**{
+          'title': publication.title,
+          'authors': publication.authors,
+          'journal': publication.journal,
+          'year': publication.year,
+          'month': publication.month,
+          'day': publication.day,
+          'url': publication.url,
+          'pubmed': publication.pubmed_url,
+          'citation': publication.cite(),
+          'mini_citation': publication.cite_mini(),
+          'abstract': repr(publication.abstract),
+      }))
+
+
+- Output of example:
+
+    TITLE:
+    Arabidopsis synchronizes jasmonate-mediated defense with insect circadian behavior.
+
+    AUTHORS:
+    Goodspeed D, Chehab EW, Min-Venditti A, Braam J, Covington MF
+
+    JOURNAL:
+    Proc Natl Acad Sci U S A
+
+    YEAR:
+    2012
+
+    MONTH:
+    3
+
+    DAY:
+    20
+
+    URL:
+    http://www.pnas.org/content/109/12/4674
+
+    PUBMED:
+    http://www.ncbi.nlm.nih.gov/pubmed/22331878
+
+    CITATION:
+    Goodspeed D, Chehab EW, Min-Venditti A, Braam J, Covington MF (2012). Arabidopsis synchronizes jasmonate-mediated defense with insect circadian behavior. Proc Natl Acad Sci U S A 109(12): 4674-7.
+
+    MINICITATION:
+    Goodspeed D - Covington MF - 2012 - Proc Natl Acad Sci U S A
+
+    ABSTRACT:
+    Diverse life forms have evolved internal clocks enabling them to monitor time and thereby anticipate the daily environmental changes caused by Earth's rotation. The plant circadian clock regulates expression of about one-third of the Arabidopsis genome, yet the physiological relevance of this regulation is not fully understood. Here we show that the circadian clock, acting with hormone signals, provides selective advantage to plants through anticipation of and enhanced defense against herbivory. We found that cabbage loopers (Trichoplusia ni) display rhythmic feeding behavior that is sustained under constant conditions, and plants entrained in light/dark cycles coincident with the entrainment of the T. ni suffer only moderate tissue loss due to herbivory. In contrast, plants entrained out-of-phase relative to the insects are significantly more susceptible to attack. The in-phase entrainment advantage is lost in plants with arrhythmic clocks or deficient in jasmonate hormone; thus, both the circadian clock and jasmonates are required. Circadian jasmonate accumulation occurs in a phase pattern consistent with preparation for the onset of peak circadian insect feeding behavior, providing evidence for the underlying mechanism of clock-enhanced herbivory resistance. Furthermore, we find that salicylate, a hormone involved in biotrophic defense that often acts antagonistically to jasmonates, accumulates in opposite phase to jasmonates. Our results demonstrate that the plant circadian clock provides a strong physiological advantage by performing a critical role in Arabidopsis defense."
+
+
+Command-Line Tools
+==================
+
+pubmed-citation
+---------------
+
+- Get a PubMed record's citation (both give same result):
+
+  .. code-block:: sh
+
+      pubmed-citation 22331878
+      pubmed-citation http://www.ncbi.nlm.nih.gov/pubmed/22331878
+
+
+- Output of example:
+
+    Goodspeed D, Chehab EW, Min-Venditti A, Braam J, Covington MF (2012). Arabidopsis synchronizes jasmonate-mediated defense with insect circadian behavior. Proc Natl Acad Sci U S A 109(12): 4674-7.
+
+- Output of example (using ``--mini`` option):
+
+    Goodspeed D - Covington MF - 2012 - Proc Natl Acad Sci U S A
+
+
+pubmed-url
+----------
+
+- Get a PubMed record's url (both give same result):
+
+  .. code-block:: sh
+
+      pubmed-url 22331878
+      pubmed-url http://www.ncbi.nlm.nih.gov/pubmed/22331878
+
+
+- Output of example:
+
+    http://www.pnas.org/content/109/12/4674
+
+- Output of example (using ``--doi`` option):
+
+    http://dx.doi.org/10.1073/pnas.1116368109
+
+
+*Version 0.2.3*
+
+
+Revision History
+================
+
+0.2.3 2019-10-31
+
+- Refactor tests
+- Test are requiring biopython>=1.66 to run/pass
+- Fix error message for Python (3.3+) version check
+- Remove Python 3.3 and 3.4 from Travis CI config
+
+
+0.2.2 2019-10-31
+
+- Accommodate publications with no authors
+- Retain DOI URL when resolving throws URLError
+- Catch connection reset errors when resolving DOI URLs
+- Indicate compatibility with recent versions of Python 3 (through 3.7)
+- Update README badges
+
+
+0.2.1 2016-01-22
+
+- Change import of ``pubmed_lookup.command_line`` that was causing Travis CI to fail
+
+
+0.2.0 2016-01-22
+
+- Create command-line tool (``pubmed-citation``) to quickly retrieve citations for PubMed IDs/URLS
+- Create command-line tool (``pubmed-url``) to quickly retrieve article and DOI URLs for PubMed IDs/URLS
+- Add option to save time by not resolving DOI URL (``Publication(pubmed_record, resolve_doi=False)``)
+- Clean up documentation
+
+
+0.1.5 2016-01-08
+
+- Add exception for publications that do not have month information (Thanks to Sasha Cuerda!)
+
+
+0.1.4 2015-12-24
+
+- Resolve PEP8 errors
+- Refactor code to be cleaner
+- Configure Landscape and add code health badge
+- Convert Github installation instructions to install from develop branch
+
+
+0.1.3 2015-07-29
+
+- Add tests for Publication and PubMedLookup
+- Configure Travis-CI
+- Configure Coveralls
+- Add PyPI, Travis-CI, and Coveralls badges to README
+
+
+0.1.2 2015-06-24
+
+- Prepare for distribution via PyPI
+
+
+0.1.1 2015-05-26
+
+- Return an abbreviated citation for a Publication with cite_mini()
+- Change install docs to use GitHub link, since not yet on PyPI
+
+
+0.1.0 2015-05-22
+
+- Lookup PubMed records and make Publication objects with info about a scientific publication
+
+
+
