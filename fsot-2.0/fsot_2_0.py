@@ -38,7 +38,23 @@ DOMAIN_PARAMS = {
     "biological": {"D_eff": 12, "recent_hits": 0, "delta_psi": 0.05, "delta_theta": 1, "observed": False},
     "astronomical": {"D_eff": 20, "recent_hits": 1, "delta_psi": 1, "delta_theta": 1, "observed": True},
     "cosmological": {"D_eff": 25, "recent_hits": 0, "delta_psi": 1, "delta_theta": 1, "observed": False},
-    # Add more domains as per universal mapping: e.g., "ai_tech": {"D_eff": 12, ...}
+    "ai_tech": {"D_eff": 12, "recent_hits": 1, "delta_psi": 0.8, "delta_theta": 1, "observed": True},
+    "engineering": {"D_eff": 15, "recent_hits": 0, "delta_psi": 0.5, "delta_theta": 1, "observed": True},
+    "physics": {"D_eff": 8, "recent_hits": 0, "delta_psi": 1, "delta_theta": 1, "observed": True},
+    "chemistry": {"D_eff": 10, "recent_hits": 0, "delta_psi": 0.7, "delta_theta": 1, "observed": False},
+    "earth_science": {"D_eff": 18, "recent_hits": 1, "delta_psi": 0.9, "delta_theta": 1, "observed": True},
+    "neuroscience": {"D_eff": 14, "recent_hits": 0, "delta_psi": 0.1, "delta_theta": 1, "observed": False},
+    "economics": {"D_eff": 16, "recent_hits": 1, "delta_psi": 0.6, "delta_theta": 1, "observed": True},
+    "meteorology": {"D_eff": 17, "recent_hits": 1, "delta_psi": 0.4, "delta_theta": 1, "observed": True},
+    "oceanography": {"D_eff": 19, "recent_hits": 0, "delta_psi": 0.3, "delta_theta": 1, "observed": False},
+    "anomalies": {"D_eff": 22, "recent_hits": 2, "delta_psi": 1.5, "delta_theta": 1, "observed": True},
+    "social": {"D_eff": 21, "recent_hits": 1, "delta_psi": 0.8, "delta_theta": 1, "observed": True},
+    "planetary": {"D_eff": 23, "recent_hits": 0, "delta_psi": 1, "delta_theta": 1, "observed": False},
+    "nuclear": {"D_eff": 9, "recent_hits": 0, "delta_psi": 1, "delta_theta": 1, "observed": True},
+    "atomic": {"D_eff": 7, "recent_hits": 0, "delta_psi": 0.9, "delta_theta": 1, "observed": True},
+    "molecular": {"D_eff": 11, "recent_hits": 0, "delta_psi": 0.6, "delta_theta": 1, "observed": False},
+    "electromagnetic": {"D_eff": 13, "recent_hits": 1, "delta_psi": 1, "delta_theta": 1, "observed": True},
+    # Add more as needed to reach 472
 }
 # Full FSOT 2.0 Formula: S_{D_chaotic} (core scalar for phenomena)
 # S = [ (N * P / √D_eff) * cos((ψ_con + Δψ) / η_eff) * exp(-α * recent_hits / N + ρ + bleed_in_factor * Δψ) * (1 + growth_term * coherence_efficiency) ] * perceived_adjust * quirk_mod

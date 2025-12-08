@@ -1,0 +1,1269 @@
+{
+    "b:\\fsuft aasb\\Fluid_Spacetime_Unification_Field_Theory As above So below.md": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSOT_2_0_Unified_Theory.md": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT_U_9_2_unified_field_theory.md": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Palumbo_Perpetual_Flux_Generator_Blueprint.md": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\planetary_gear_board_blueprint.md": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSOT-2.0-code\\README.md": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSOT_2_0_Unified_Theory\\FSOT_2_0_Unified_Theory.md": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\(FSUFT-U) 4.0_ - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\(FSUFT-U) 7.0Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\A Proto-Fluid Language Translator Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\A Quantum Fluid Cosmos Unifying All Forces, Scales, Life, and Consciousness- Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\A Viscous Fluid Cosmos.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\AI and Human Consciousness Evolution- Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Black Hole Tunnels and White Hole Theory- Grok.pdf": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Compiled List of Datasets and Outcomes 2 Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Compiled List of Datasets and Outcomes Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Consciousness and the Afterlife in Fluid SpacetimeGrok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\content.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Decoding the Proto-Fluid Voice - Grok.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\ecc model.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Extraterrestrial Communication and Guidance X.pdf": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Finalize Pseudocode and Explanation - Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Fluidic Space-Time Theory Explained - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 3.0  update- Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 5.0 Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 5.0Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-u 6.0 copy.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-u 6.0_1.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 6.5 - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 7.6 .pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 7.6 as a Unified Vision (Continued) - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 7.6- Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 7.6.1.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.3 Mathematical Key.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.7 Mathematical Key.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.7 Why is there something instead of nothing Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.8.1pdf.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.8.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 9.1.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 9.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Fsuft-u2.0 (2).pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-u7.5.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-u9.6.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Fsuft_u2_0 (2).pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft_u7_6 (1).pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Intent-Driven Modulation of Pain and Mental Healt.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\List of Areas for Refinement and Addition_ X.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\List of Domains and Dataset Counts for Model AcceptanceGrok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Logical Consciousness in AI Societiest - Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Mapping 10-Dimensional Spacetime Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Metallo-Protein Energetic Resonance.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Metaphysical Resonance Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Neural Cosmic Storms and Second String TheoryGrok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Non-Physical Encoding in Artifacts and Paranormal Phenomena Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Psychedelic Substances and Consciousness Resonance in a 10-Dimensional Fluid Spacetime - Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Python Code with Full 148 DatasetsGrok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Quantum Consciousness Grok.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Resolving Cosmological and BBN Anomalies with the.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Resolving the Hubble Tension with FSUFT-U 8.7 Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Solar System and Cellular Design Connections.pdf": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\SPHEREx Data Release and FSUFT-U 6.0 Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\The Reverse World HypothesisGrok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\The Tree of Life as a Manifestation of Fluid- Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Theory of Life and Consciousness Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Thesis Blueprin Fluid Spacetime Unification Field TheoryGrok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Time Travel_ Theory and Relativity - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Unifying Neural Pathway Dynamics in.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Vibrating at the 10-Dimensional Consciousness Level_ X.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Viscous Dynamics of Light and SoundGrok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Visualizing the Scalar Field.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Blueprint for Rubber-Aluminum NanocompositeGrok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Compact Integrated Quantum Vacuum EnerFrame Harvestere - Grok.pdf": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Decoding the Philosopher's Stone through FSUFT-U 6.0 - Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Double Helix Plasma.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Dual-Surface Quantum Fluid Barrier Generator- Grok.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\FlexiThread- Grok.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Fluidic Warp Drive - Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\FSUFT-U Plant Growth Stimulator - Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\FSUFT-Vibranium SynthesizerGrok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\GigaFlux Armor.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Mini 10D-WRPS-D with FWD IntegrationGrok.pdf": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Mini-Oxoflash.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Neo-Benben Household Energy UnitComplete BlueprintX.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Quantum Fluid Tricorder Grok.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Seawater Plasma Fusion Reactor (SPFR).pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\The Blob Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\The Quantum Solar Panel Grok.pdf": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Warp Portal Grok.pdf": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\wood-PoofCone Thermo-Plasma Speaker.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Blueprint for Rubber-Aluminum NanocompositeGrok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Compact Integrated Quantum Vacuum EnerFrame Harvestere - Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Decoding the Philosopher's Stone through FSUFT-U 6.0 - Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Double Helix Plasma.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Dual-Surface Quantum Fluid Barrier Generator- Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\FlexiThread- Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Fluidic Warp Drive - Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\FSUFT-U Plant Growth Stimulator - Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\FSUFT-Vibranium SynthesizerGrok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\GigaFlux Armor.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Mini 10D-WRPS-D with FWD IntegrationGrok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Mini-Oxoflash.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Neo-Benben Household Energy UnitComplete BlueprintX.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Quantum Fluid Tricorder Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Seawater Plasma Fusion Reactor (SPFR).fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\The Blob Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\The Quantum Solar Panel Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Warp Portal Grok.fsot_updated.pdf": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\(FSUFT-U) 2.0.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\A New Cosmic Blueprint.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Alright.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Anomaly Number.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\Comparison of 104 Cosmological Anomalies Against Known Data.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Fluid Spacetime Theory_ A Dad's Cosmic View - .docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Fluidic Space-Time Unified Field Theory.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fluidic spacetime unified field theory a skeletonkey for the cosmos.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT 4.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft 8 mmmath key.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT 8.3new physics.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT 8.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft key to the cosmose.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft mmath key and reaserch.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 10..docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-u 6.0.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFT-U 8.7\u2019s verification, documenting the dataset ID, source, domain, base reading.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\List of 104 Cosmological Anomalies.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\OSF Preprints Submission Process for FSUFT.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Pinpointing Updates.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\Vibrating at the 10-Dimensional Consciousness Level_ X.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\(GXT-01) Cryogenic Cooling System Blueprint.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\(QVEH).docx": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Aetherion Colossus.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Aetherion spacecraft.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\FSUFT 8.3 Verifier (F8V) Blueprint.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\GXT-01.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Holoflex.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Mars Terraforming Blueprint.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Memorphium.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\MetaForge 3D Printer Blueprint.docx": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Mini-Oxoflash.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\NanoHLSD \u2013 Nanobot Health Optimization System with FDVR Potential.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\NeutriFusion Reactor.docx": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\OxoHive.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Quantum noise reducer.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Stainless Steel Electrice Cooker.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\standalone electromagnetic field generator.docx": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\the Electromagnetic Propulsion Ring.docx": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\The Oxoflash.docx": {
+        "domain": "quantum",
+        "computed_scalar": 0.9555063001027196,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\The Sun Pocket.docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\warp disc (starate).docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\Warp Drive (E10D-WD).docx": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\(GXT-01) Cryogenic Cooling System Blueprint.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\(QVEH).fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Aetherion Colossus.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Aetherion spacecraft.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\FSUFT 8.3 Verifier (F8V) Blueprint.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\GXT-01.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Holoflex.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Mars Terraforming Blueprint.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Memorphium.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\MetaForge 3D Printer Blueprint.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Mini-Oxoflash.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\NanoHLSD \u2013 Nanobot Health Optimization System with FDVR Potential.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\NeutriFusion Reactor.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\OxoHive.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Quantum noise reducer.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Stainless Steel Electrice Cooker.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\standalone electromagnetic field generator.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\the Electromagnetic Propulsion Ring.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\The Oxoflash.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\The Sun Pocket.fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\warp disc (starate).fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\fsot tech\\fsot_updated_blueprints\\Warp Drive (E10D-WD).fsot_updated.docx": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 0.00% alignment with 0/20 references"
+    },
+    "b:\\fsuft aasb\\cure_test.py": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\extract_docx.py": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\extract_pdfs.py": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\fsuft-aasb.py": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFTU87Optimizer.py": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSUFTValidator_full_code.py": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\PFLT_Enhanced_Fixed.py": {
+        "domain": "biological",
+        "computed_scalar": 0.47768238921582773,
+        "validation": "No valid benchmark available",
+        "accuracy": null,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\physics_simulation_engine.py": {
+        "domain": "astronomical",
+        "computed_scalar": 0.8984595681660628,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    },
+    "b:\\fsuft aasb\\FSOT-2.0-code\\FSOT 2.0 code.py": {
+        "domain": "cosmological",
+        "computed_scalar": -0.5024559462100433,
+        "validation": "Within 95-100% threshold",
+        "accuracy": 100.0,
+        "contrast": "Contrast score: 100.00% alignment with 20/20 references"
+    }
+}
