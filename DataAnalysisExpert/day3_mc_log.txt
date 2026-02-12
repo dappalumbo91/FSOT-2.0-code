@@ -1,6 +1,6 @@
 Day-3 MC — trials=50, seed=7
 Tuned Day-2: Δψ=-1.80, valve_scale=10
-Success rate (S>3): 96.000%
-Mean S (successes): 3.410 ± 0.176
-Mean RNA gens (successes): 5.52e+08
+Success rate (S>3): 92.000%
+Mean S (successes): 3.404 ± 0.164
+Mean RNA gens (successes): 5.51e+08
 Mean timescale_ga (successes): 1.1

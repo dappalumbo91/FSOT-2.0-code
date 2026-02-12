@@ -1,0 +1,6 @@
+Day-5 MC — trials=200, seed=7
+Swarming biota rate (S>3): 99.000%
+Multicellular branching rate: 93.500%
+Cambrian-like burst rate: 93.000%
+Reproductive coherence (sperm/egg): 91.000%
+Mean diversity proxy: 2.15575e+10

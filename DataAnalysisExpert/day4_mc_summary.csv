@@ -1,2 +1,2 @@
-trials,gov_rate,fold_rate,mean_reg,mean_complex,mean_chem,mean_conv
-200,0.0,100.0,0.0,595260.5354909968,0.12000000000000006,1.0
+trials,gov_rate,fold_rate,mean_reg,mean_complex,mean_chem,mean_conv,mean_ecc,habitable_frac
+200,100.0,100.0,117.01591274768947,594307.852344921,0.12000000000000006,1.0,0.0,100.0
