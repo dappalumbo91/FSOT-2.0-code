@@ -99,3 +99,6 @@ include("test_day5_mc.jl")
 # Day 6 tests
 include("test_day6.jl")
 
+# Planetary DB + Exoplanet MC tests
+include("test_planetary_db.jl")
+

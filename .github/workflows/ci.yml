@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  julia-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Julia
+        uses: julia-actions/setup-julia@v1
+        with:
+          version: '1.10'
+      - name: Install project dependencies
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+      - name: Run tests (CI_SKIP_PLOTTING=1)
+        env:
+          CI_SKIP_PLOTTING: '1'
+        run: julia --project=. test/runtests.jl

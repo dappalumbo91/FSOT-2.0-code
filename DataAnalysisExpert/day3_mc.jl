@@ -34,8 +34,24 @@ function run_day3_mc(; trials::Int=10000, rng_seed::Int=42, delta_psi_target=-1.
         prev_D_eff = BigFloat(7) + BigFloat(randn()*0.5)
         S = compute_S_day3(BigFloat(seed_jitter), prev_D_eff)
         r = rna_proxy_from_S(S)
+
+        # Planetary accretion + dynamo / atmosphere proxies (added layer)
+        accretion_success = (Float64(S) > 3.0) && (rand() > 0.1)  # heuristic
+        em_field = accretion_success ? clamp(0.2 + 0.6*rand(), 0.0, 1.0) : 0.0
+        atmosphere_retained = em_field > 0.4 && rand() > 0.2
+        habitability_boost = atmosphere_retained ? 1.8 : 1.0
+
         success = S > BigFloat(3)
-        push!(results, Dict("trial"=>i, "S"=>Float64(S), "success"=>success, "rna_gens"=>r.gens, "timescale_ga"=>r.timescale_ga))
+        push!(results, Dict("trial"=>i,
+                            "S"=>Float64(S),
+                            "success"=>success,
+                            "rna_gens"=>r.gens,
+                            "timescale_ga"=>r.timescale_ga,
+                            "accretion"=>accretion_success,
+                            "em_field"=>em_field,
+                            "atmos_retained"=>atmosphere_retained,
+                            "habit_boost"=>habitability_boost))
+
         if success
             push!(succ_S, Float64(S))
             push!(succ_rna_gens, r.gens)
@@ -52,12 +68,12 @@ function run_day3_mc(; trials::Int=10000, rng_seed::Int=42, delta_psi_target=-1.
     mean_gens = isempty(succ_rna_gens) ? NaN : mean(succ_rna_gens)
     mean_times = isempty(succ_times) ? Inf : mean(succ_times)
 
-    # write CSV
+    # write CSV (extended with planetary proxies)
     csv_path = "day3_mc_results.csv"
     open(csv_path, "w") do io
-        println(io, "trial,S,success,rna_gens,timescale_ga")
+        println(io, "trial,S,success,rna_gens,timescale_ga,accretion,em_field,atmos_retained,habit_boost")
         for row in results
-            println(io, "$(row["trial"]),$(row["S"]),$(row["success"]),$(row["rna_gens"]),$(row["timescale_ga"])")
+            println(io, "$(row["trial"]),$(row["S"]),$(row["success"]),$(row["rna_gens"]),$(row["timescale_ga"]),$(row["accretion"]),$(row["em_field"]),$(row["atmos_retained"]),$(row["habit_boost"])")
         end
     end
 
@@ -74,7 +90,11 @@ function run_day3_mc(; trials::Int=10000, rng_seed::Int=42, delta_psi_target=-1.
 
     # optional: attempt to plot (requires Plots.jl)
     try
-        @eval using Plots
+        if get(ENV, "CI_SKIP_PLOTTING", "0") == "1"
+            @info "CI_SKIP_PLOTTING=1 — skipping Plots import in day3_mc"
+        else
+            @eval using Plots
+        end
         svals = [r["S"] for r in results]
         png("day3_mc_hist_S.png") do
             histogram(svals, bins=60, title="Day-3 S distribution", xlabel="S", ylabel="count")
