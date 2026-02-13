@@ -1,9 +1,9 @@
 # FSOT 2.0: Fluid Spacetime Omni-Theory
 # Made by Damian Arthur Palumbo and Grok
 import mpmath as mp
-mp.mp.dps = 50 # High precision for FSOT 2.0 computations
+mp.mp.dps = 50  # High precision for FSOT 2.0 computations
 # Fundamental constants
-phi = (1 + mp.sqrt(5)) / 2 # Golden ratio
+phi = (1 + mp.sqrt(5)) / 2  # Golden ratio
 e = mp.e
 pi = mp.pi
 sqrt2 = mp.sqrt(2)

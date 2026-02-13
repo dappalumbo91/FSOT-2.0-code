@@ -1,7 +1,7 @@
 using Test
 
 # include Day 1 module
-include("../day1.jl")
+include("../day1/day1.jl")
 
 @testset "Day 1 — Planck/FIRAS parsing & S anchoring" begin
     # Planck JSON parsing
@@ -99,6 +99,10 @@ include("test_day5_mc.jl")
 # Day 6 tests
 include("test_day6.jl")
 
+# Day 7 tests
+include("test_day7.jl")
+
 # Planetary DB + Exoplanet MC tests
 include("test_planetary_db.jl")
+include("test_planetary_interior.jl")
 

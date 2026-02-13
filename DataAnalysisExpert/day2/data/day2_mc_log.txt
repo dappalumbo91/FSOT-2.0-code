@@ -1,0 +1,7 @@
+Day 2 MC log
+trials = 10000, seed = 42
+sep_rate = 100.0
+punc_rate = 100.0
+mean_outgas = 82102.30542540202
+mean_frb = 53860.988096525994
+mean_scale = 1.461499113305645e9

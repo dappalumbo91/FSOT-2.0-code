@@ -6,3 +6,6 @@ arxiv
 pubmed-lookup  # or similar, but let's check
 beautifulsoup4
 lxml
+# Added missing runtime dependencies
+docx2txt
+pdfplumber

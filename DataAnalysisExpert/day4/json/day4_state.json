@@ -1,0 +1,11 @@
+{
+  "convection_efficiency": "1.0",
+  "day": "4",
+  "S": "5.0",
+  "governors": "false",
+  "standardized_time_years": "1.0998989546215885e9",
+  "dna_complexity_proxy": "594307.8523449212",
+  "rna_to_dna_folding": "true",
+  "cycle_regularity_percent": "1.0",
+  "chemical_CN_O_frac": "0.12"
+}

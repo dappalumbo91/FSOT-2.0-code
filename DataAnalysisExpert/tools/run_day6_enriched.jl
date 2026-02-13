@@ -1,0 +1,6 @@
+include(joinpath(@__DIR__, "..", "day6", "day6_mc.jl"))
+println("Running Day-6 MC (10k) using enriched Day-5 outputs...")
+res = run_day6_mc(trials=10000, rng_seed=42, day5_path=joinpath(@__DIR__, "..", "day5_mc_results.csv"))
+println("Day-6 MC result:")
+println(res)
+println("Done.")

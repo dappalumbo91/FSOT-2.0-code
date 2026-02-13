@@ -1,0 +1,4 @@
+Day-7 MC — trials=100, seed=13
+Rest-stable rate: 100.000%
+High-cycle stability (>0.9): 0.000%
+Mean observer fidelity proxy: 11.0992

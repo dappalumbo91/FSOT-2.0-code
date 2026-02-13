@@ -1,0 +1,5 @@
+Day-7 perturbation — trials=5000, seed=42
+Reset rate: 0.680%
+Rebound success rate (when reset): 85.294%
+Mean reset strength: 0.5508
+Mean fidelity change (%): -4.575

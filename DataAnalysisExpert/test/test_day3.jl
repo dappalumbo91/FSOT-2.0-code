@@ -1,6 +1,6 @@
 using Test
 include("../day3.jl")
-include("../day3_mc.jl")
+include("../day3/day3_mc.jl")
 
 @testset "Day 3 — clamping & MC behavior" begin
     # compute_S_day3 clamps: very large seed should not produce Inf and should be within clamp bounds

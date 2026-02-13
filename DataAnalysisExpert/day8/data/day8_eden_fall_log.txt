@@ -1,0 +1,5 @@
+Day-8 Eden/Fall — trials=10000, seed=42
+Reset (Fall) rate: 0.6200%
+Mean strife episode length (cycles): 12.468
+Rebound success rate: 100.000%
+Mean fidelity delta (%): 17.110

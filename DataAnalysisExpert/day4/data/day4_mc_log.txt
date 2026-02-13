@@ -1,0 +1,9 @@
+Day-4 MC — trials=10000, seed=42
+Governors Active: 100.000%
+RNA→DNA folding success: 100.000%
+Mean Cycle Regularity: 116.066081075
+Mean DNA Complexity proxy: 596335
+Mean chemical C/N/O frac: 0.12
+Mean convection efficiency: 1
+Mean orbital eccentricity (proxy): 0
+Habitable fraction (proxy): 100.000%

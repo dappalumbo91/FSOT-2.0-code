@@ -1,0 +1,5 @@
+# Example Planck/LAMBDA-style table (freq_GHz intensity)
+# Comment line
+30 1.234e-18
+100 2.345e-18
+300 3.456e-19

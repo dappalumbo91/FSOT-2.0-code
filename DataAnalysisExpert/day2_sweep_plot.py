@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-csv = 'day2_sweep_results.csv'
+csv = 'day2/data/day2_sweep_results.csv'
 df = pd.read_csv(csv)
 
 # Pivot for heatmaps: rows=delta_psi_base, cols=valve_scale
@@ -21,7 +21,7 @@ for metric in ['sep_rate', 'punc_rate']:
         ax.set_xlabel('valve_scale')
         ax.set_ylabel('delta_psi_base')
         fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
-    out = f"day2_sweep_{metric}_heatmaps.png"
+    out = f"day2/images/day2_sweep_{metric}_heatmaps.png"
     fig.suptitle(f"Day-2 sweep — {metric}")
     fig.savefig(out)
     print('Wrote', out)

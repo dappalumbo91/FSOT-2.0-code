@@ -1,10 +1,10 @@
 println("Running Day‑3 MC with Gaia priors (resampled from planetary_enriched table)...")
-include(joinpath(@__DIR__, "..", "day3_mc.jl"))
+include(joinpath(@__DIR__, "..", "day3", "day3_mc.jl"))
 using CSV, DataFrames, Random
 
 # input enriched planetary MC (produced earlier)
 planet_csv = get(ENV, "PLANET_CSV", joinpath(@__DIR__, "..", "data", "planetary_mc_results_10k_enriched.csv"))
-out_csv = get(ENV, "DAY3_OUT", joinpath(@__DIR__, "..", "day3_mc_results_gaia.csv"))
+out_csv = get(ENV, "DAY3_OUT", joinpath(@__DIR__, "..", "day3", "data", "day3_mc_results_gaia.csv"))
 trials = parse(Int, get(ENV, "SWEEP_TRIALS", "10000"))
 rng = MersenneTwister(parse(Int, get(ENV, "RUN_SEED", "20260212")))
 
@@ -63,6 +63,12 @@ for i in 1:trials
     ts = isfinite(r.timescale_ga) ? max(0.01, r.timescale_ga * timescale_scale) : Inf
 
     success = S > BigFloat(3)
+    # capture optional planetary priors (tectonic/ocean/weather) when present in the sampled planetary row
+    tectonic_rate_row = try parse(Float64, string(get(prow, :tectonic_rate, NaN))) catch; NaN end
+    volcanic_index_row = try parse(Float64, string(get(prow, :volcanic_index, NaN))) catch; NaN end
+    ocean_fraction_row = try parse(Float64, string(get(prow, :ocean_fraction, NaN))) catch; NaN end
+    weather_index_row = try parse(Float64, string(get(prow, :weather_index, NaN))) catch; NaN end
+
     push!(results, Dict("trial"=>i,
                         "S"=>Float64(S),
                         "success"=>success,
@@ -72,7 +78,11 @@ for i in 1:trials
                         "em_field"=>em_field,
                         "atmos_retained"=>atmosphere_retained,
                         "habit_boost"=>habitability_boost,
-                        "prior"=>prior))
+                        "prior"=>prior,
+                        "tectonic_rate"=>tectonic_rate_row,
+                        "volcanic_index"=>volcanic_index_row,
+                        "ocean_fraction"=>ocean_fraction_row,
+                        "weather_index"=>weather_index_row))
 
     if success
         push!(succ_S, Float64(S))
@@ -85,9 +95,9 @@ end
 
 # write Day-3 enriched CSV (same schema as baseline day3_mc_results.csv)
 open(out_csv, "w") do io
-    println(io, "trial,S,success,rna_gens,timescale_ga,accretion,em_field,atmos_retained,habit_boost,prior")
+    println(io, "trial,S,success,rna_gens,timescale_ga,accretion,em_field,atmos_retained,habit_boost,prior,tectonic_rate,volcanic_index,ocean_fraction,weather_index")
     for row in results
-        println(io, "$(row["trial"]),$(row["S"]),$(row["success"]),$(row["rna_gens"]),$(row["timescale_ga"]),$(row["accretion"]),$(row["em_field"]),$(row["atmos_retained"]),$(row["habit_boost"]),$(row["prior"])")
+        println(io, "$(row["trial"]),$(row["S"]),$(row["success"]),$(row["rna_gens"]),$(row["timescale_ga"]),$(row["accretion"]),$(row["em_field"]),$(row["atmos_retained"]),$(row["habit_boost"]),$(row["prior"]),$(row["tectonic_rate"]),$(row["volcanic_index"]),$(row["ocean_fraction"]),$(row["weather_index"])")
     end
 end
 

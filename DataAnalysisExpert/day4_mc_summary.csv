@@ -1,2 +1,2 @@
-trials,gov_rate,fold_rate,mean_reg,mean_complex,mean_chem,mean_conv,mean_ecc,habitable_frac
-200,100.0,100.0,117.01591274768947,594307.852344921,0.12000000000000006,1.0,0.0,100.0
+trials,gov_rate,fold_rate,mean_reg,mean_complex,mean_chem,mean_conv,mean_ecc,habitable_frac,mean_tectonic_rate,mean_ocean_fraction,mean_weather_index,mean_volcanic_index
+200,100.0,100.0,117.01591274768947,594307.852344921,0.12000000000000006,1.0,0.0,100.0,NaN,NaN,NaN,NaN

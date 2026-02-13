@@ -1,0 +1,10 @@
+Day2 MC Extended Log
+trials = 10000, seed = 42
+sep_rate = 95.45
+punc_rate = 95.45
+quasar_count = 11
+magnetar_count = 455
+mean_outgas = Inf
+mean_frb = 5.666038737859053e7
+mean_lensing = 2.199089205042236e7
+mean_scale = Inf

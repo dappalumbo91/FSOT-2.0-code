@@ -1,0 +1,6 @@
+println("Running Day-6 community/curiosity MC (chained from Day-5)...")
+include(joinpath(@__DIR__, "..", "day6", "day6_mc.jl"))
+res = run_day6_mc(trials=10000, rng_seed=42, day5_path=joinpath(@__DIR__, "..", "day5_mc_results.csv"))
+println("Day-6 community MC summary:")
+println(res)
+println("Wrote: day6_mc_results.csv, day6_mc_log.txt")

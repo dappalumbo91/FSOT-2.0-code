@@ -1,5 +1,5 @@
 using Test
-include("../day5_mc.jl")
+include("../day5/day5_mc.jl")
 
 @testset "Day 5 MC — biota stability & diversity" begin
     summary = run_day5_mc(trials=200, rng_seed=7)

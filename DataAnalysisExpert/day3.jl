@@ -2,11 +2,11 @@
 # Loads tuned Day‑2 sweep averages (sweet spot), computes Day‑3 S, and writes day3_state.json
 
 using Printf
-include("day1.jl")
+include(joinpath(@__DIR__, "day1", "day1.jl"))
 
 # Simple CSV read to find tuned row (no external packages required)
 function read_sweep_row(delta_psi_target::Float64, valve_scale_target::Int)
-    path = "day2_sweep_results.csv"
+    path = "day2/data/day2_sweep_results.csv"
     if !isfile(path)
         error("Sweep CSV not found: $path — run day2_sweep.jl first")
     end

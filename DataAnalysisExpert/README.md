@@ -6,7 +6,7 @@ What this folder contains
 How to run (recommended: Julia 1.8+ / 1.10+)
 1. Install Julia (if not already): https://julialang.org/downloads/
 2. From the repo root run:
-   julia --project=.\DataAnalysisExpert -e "include(\"DataAnalysisExpert/day1.jl\")"
+   julia --project=.\DataAnalysisExpert -e "include(\"DataAnalysisExpert/day1/day1.jl\")"
 
 Optional dependencies
 - Downloads.jl — used to fetch FIRAS spectrum (best‑effort). Install via Julia REPL: `using Pkg; Pkg.add("Downloads")`
@@ -32,13 +32,13 @@ Day 8 — Eden/Fall narrative highlights 🔥
 - Files produced by the Day‑8 narrative MC (calibrated):
   - `day8_narrative_results.csv` — per‑epoch timeline rows (reset, strife length, fidelity before/after)
   - `day8_narrative_fidelity_history.csv` — fidelity time series
-  - `day8_narrative_annotated.csv` — enriched per‑epoch annotations (event_type, dominion proxy, pct change)
-  - `day8_narrative_highlights.csv` / `day8_narrative_highlights.json` — top covenant renewal bursts (ready for X posts)
-  - `day8_narrative_highlights.png` — fidelity timeline with highlighted covenant bursts
+  - `day8/data/day8_narrative_annotated.csv` — enriched per‑epoch annotations (event_type, dominion proxy, pct change)
+  - `day8/data/day8_narrative_highlights.csv` / `day8/json/day8_narrative_highlights.json` — top covenant renewal bursts (ready for X posts)
+  - `day8/images/day8_narrative_highlights.png` — fidelity timeline with highlighted covenant bursts
 - Quick usage:
   - `julia --project=. tools/run_day8_narrative.jl` — run multi‑epoch narrative (configurable via ENV)
   - `julia --project=. tools/run_export_day8_timeline.jl` — export annotated timeline + highlights
-- Recommended: use the `day8_narrative_highlights.json` captions directly for X posts (includes short prediction‑style captions).
+- Recommended: use the `day8/json/day8_narrative_highlights.json` captions directly for X posts (includes short prediction‑style captions).
 
 Sources & anchors
 - Planck 2018 cosmological parameters (arXiv:1807.06209)

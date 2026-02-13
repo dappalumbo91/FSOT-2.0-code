@@ -36,7 +36,34 @@ function load_day3_mc_simple(path::String="day3_mc_results.csv")
     mean_S = mean(S_vals)
     mean_gens = isempty(gens) ? 0.0 : mean(gens)
     mean_time_ga = isempty(times) ? Inf : mean(times)
-    return Dict("mean_S"=>mean_S, "mean_gens"=>mean_gens, "timescale_ga"=>mean_time_ga, "success_frac"=>successes/length(S_vals))
+
+    # attempt to extract optional tectonic/ocean/weather columns if present
+    tect_rates = Float64[]
+    ocean_fracs = Float64[]
+    weather_idxs = Float64[]
+    volc_idxs = Float64[]
+    for ln in lines[2:end]
+        cols = split(ln, ',')
+        # guard: if extra columns exist at end, attempt to read by name via header mapping
+        if haskey(idx, "tectonic_rate") && cols[idx["tectonic_rate"]] != ""
+            push!(tect_rates, parse(Float64, cols[idx["tectonic_rate"]]))
+        end
+        if haskey(idx, "ocean_fraction") && cols[idx["ocean_fraction"]] != ""
+            push!(ocean_fracs, parse(Float64, cols[idx["ocean_fraction"]]))
+        end
+        if haskey(idx, "weather_index") && cols[idx["weather_index"]] != ""
+            push!(weather_idxs, parse(Float64, cols[idx["weather_index"]]))
+        end
+        if haskey(idx, "volcanic_index") && cols[idx["volcanic_index"]] != ""
+            push!(volc_idxs, parse(Float64, cols[idx["volcanic_index"]]))
+        end
+    end
+
+    return Dict("mean_S"=>mean_S, "mean_gens"=>mean_gens, "timescale_ga"=>mean_time_ga, "success_frac"=>successes/length(S_vals),
+                "mean_tectonic_rate"=>isempty(tect_rates) ? NaN : mean(tect_rates),
+                "mean_ocean_fraction"=>isempty(ocean_fracs) ? NaN : mean(ocean_fracs),
+                "mean_weather_index"=>isempty(weather_idxs) ? NaN : mean(weather_idxs),
+                "mean_volcanic_index"=>isempty(volc_idxs) ? NaN : mean(volc_idxs))
 end
 
 function compute_S_day4(prev_S::BigFloat, prev_D_eff::BigFloat)
@@ -62,18 +89,68 @@ function time_proxy(S::BigFloat, timescale_ga::Float64)
     return (governors=governor_success, regularity=cycle_regularity, time_years=standardized_time_years)
 end
 
+# ---- Chemistry / Thermal / RNA→DNA extensions ----
+function chemical_proxy(outgas_mass::BigFloat)
+    # anchored mapping: heavier-element (C/N/O) proxy from outgas mass
+    # uses soft-exponential to avoid runaway and returns fraction [0,1]
+    fusion_yield = clamp(Float64(exp(min(outgas_mass / BigFloat(1e65), BigFloat(10)))) * 0.12, 0.0, 1.0)
+    return fusion_yield
+end
+
+function thermal_convection(S::BigFloat, regularity::Float64)
+    # map radiation/poof S -> convection efficiency in [0,1]
+    radiation_poof = exp(max(Float64(S), 0.0))
+    convection = clamp((radiation_poof * regularity / φ) / 10.0, 0.0, 1.0)
+    return convection
+end
+
+# --- tectonic / volcanic stochastic processes (puncture / rebound mechanics) ---
+function tectonic_event(tectonic_rate::Float64; rng=GLOBAL_RNG)
+    # tectonic_rate in cm/yr; returns (puncture_prob, rebound_strength)
+    # higher rate -> more frequent punctures and stronger rebound
+    base_prob = clamp(tectonic_rate / 10.0, 0.01, 0.9)
+    puncture = rand(rng) < base_prob
+    rebound = puncture ? clamp(0.5 + 0.5*rand(rng)*(tectonic_rate/5.0), 0.1, 2.0) : 0.0
+    return (puncture=puncture, rebound=rebound)
+end
+
+function volcanic_outgassing(volcanic_index::Float64, rebound::Float64)
+    # volcanic_index [0..1], rebound amplifies transient outgas
+    outgas = clamp(volcanic_index * (1.0 + rebound), 0.0, 2.0)
+    # convert to chemical yield modifier
+    chem_boost = clamp(0.1 + 0.4*outgas, 0.0, 1.0)
+    return (outgas=outgas, chem_boost=chem_boost)
+end
+
+function rna_to_dna(S::BigFloat, convection::Float64, rna_gens::Float64; Δψ::Float64=-0.618, recent_hits::Int=20)
+    # strife/tribulation increases folding chances; require sufficient convection + RNA generations
+    strife_factor = abs(sin(Δψ)) * recent_hits
+    folding_success = (convection > 0.5) && (rna_gens > 1e8)
+    dna_complexity = folding_success ? exp(min(strife_factor, 20.0)) * (rna_gens / 1e8) : 1.0
+    return (folding=folding_success, complexity=dna_complexity)
+end
+
 function run_day4()
     d3 = load_day3_mc_simple()
     prev_D_eff = BigFloat(5)
     S = compute_S_day4(BigFloat(d3["mean_S"]), prev_D_eff)
     res = time_proxy(S, Float64(d3["timescale_ga"]))
 
+    # chemical / thermal / RNA→DNA chaining
+    chem = chemical_proxy(BigFloat(d3["mean_gens"]) * BigFloat(1e-56))  # scale gens -> mass proxy
+    conv = thermal_convection(S, Float64(res.regularity))
+    rna_res = rna_to_dna(S, Float64(conv), Float64(d3["mean_gens"]))
+
     state = Dict(
         "day" => 4,
         "S" => string(S),
         "governors" => string(res.governors),
         "cycle_regularity_percent" => string(res.regularity),
-        "standardized_time_years" => string(res.time_years)
+        "standardized_time_years" => string(res.time_years),
+        "chemical_CN_O_frac" => string(chem),
+        "convection_efficiency" => string(conv),
+        "rna_to_dna_folding" => string(rna_res.folding),
+        "dna_complexity_proxy" => string(rna_res.complexity)
     )
 
     # safe JSON write without JSON.jl
@@ -93,7 +170,10 @@ function run_day4()
     @printf("Day 4 S: %.10g\n", S)
     @printf("Governors Active: %s\n", res.governors)
     @printf("Cycle Regularity: %.6g%%\n", res.regularity)
-    @printf("Standardized Time Proxy: %.10g years\n", res.time_years)
+    @printf("Chemical C/N/O fraction proxy: %.6g\n", chem)
+    @printf("Convection efficiency: %.6g\n", conv)
+    @printf("RNA→DNA folding success: %s\n", rna_res.folding)
+    @printf("DNA complexity proxy: %.6g\n", rna_res.complexity)
 
     return state
 end

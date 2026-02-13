@@ -1,0 +1,6 @@
+Day-8 narrative — epochs=10000, seed=42
+Elapsed time: 1015 milliseconds
+Epoch reset rate: 0.6200%
+Mean strife episode length (cycles): 12.468
+Rebound success rate: 100.000%
+Cumulative fidelity change (%): 1933147.819

@@ -1,0 +1,4 @@
+# FIRAS monopole sample
+# freq_GHz intensity_W_m2_sr_Hz
+30 1.234e-18
+100 2.345e-18

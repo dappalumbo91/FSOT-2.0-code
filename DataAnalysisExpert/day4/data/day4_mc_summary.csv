@@ -1,0 +1,2 @@
+trials,gov_rate,fold_rate,mean_reg,mean_complex,mean_chem,mean_conv,mean_ecc,habitable_frac,mean_tectonic_rate,mean_ocean_fraction,mean_weather_index,mean_volcanic_index
+10000,100.0,100.0,116.06608107524757,596335.4146994838,0.12000000000000018,1.0,0.0,100.0,NaN,NaN,NaN,NaN

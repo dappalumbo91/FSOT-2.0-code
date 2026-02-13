@@ -1,0 +1,27 @@
+== FSOT Day1 -> Day2 -> Cone Overlay Log ==
+Running Day 1...
+Day 1 output:
+  light_density_raw => 1667.180823067058470118223408529637311377
+  day => 1
+  S => 7.41888934901392211561782447872588869747
+  anchored_density_J_per_m3 => 1.095972580783567047292574481679606685492e-18
+  firas_fetch => (ok = false, msg = "All fetch attempts failed; network or URL changed")
+  wavefront_plot => (ok = false, msg = "Plots.jl not installed")
+  emergence => true
+  post_D_eff => 15.0
+
+Running Day 2...
+Day 2 output:
+  day => 2
+  S => 6.403585306451579135049827633617386855127
+  anchored_expansion_H0_proxy => 67.40000000000000000000000000000000000008
+  separation => false
+  scale_growth_e_folds_proxy => 1.0
+  post_D_eff => 15.0
+
+Running Cone overlay (Day 1 anchored)...
+Cone overlay output summary:
+  T_eff_K = 0.20
+  norm responses (L,M,S) = 0.9943, 1.0000, 0.6068
+
+All steps complete. Files produced: day1_state.json, day2_state.json, cone_overlay_log.txt

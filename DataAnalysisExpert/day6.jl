@@ -2,7 +2,7 @@
 # Chains Day-5 MC averages into Day-6 land-animal swarming and humanity precursor
 
 using Printf
-include("day1.jl")
+include(joinpath(@__DIR__, "day1", "day1.jl"))
 include("day5.jl")   # provides load_day4_tuned fallback if needed
 
 function load_day5_mc()
@@ -49,6 +49,29 @@ function humanity_proxy(S::BigFloat, repro_coherence::BigFloat)
     dominion = humanity ? exp(min(Float64(S), 50.0)) * Float64(repro_coherence) : 1.0
     observed_fidelity = humanity ? "Consciousness_factor full—mid-scale observer active" : "Pre-human"
     return (animals=land_animals, humanity=humanity, dominion=dominion, fidelity=observed_fidelity)
+end
+
+# Instincts / Curiosity / Tool Dominion helpers
+function curiosity_proxy(strife_factor::BigFloat, consciousness::Real)
+    phase_variance = BigFloat(0.15)
+    c = BigFloat(consciousness)
+    curiosity = Float64(clamp(phase_variance * strife_factor * (c + BigFloat(0.1)), 0.0, 1.0))
+    return curiosity
+end
+
+function tool_dominion(strife_factor::BigFloat, repro_coherence::Real)
+    rc = BigFloat(repro_coherence)
+    manipulation = Float64(clamp(exp(min(strife_factor/3, 20.0)) * (rc + BigFloat(0.1)), 1.0, 1e8))
+    community = manipulation > 1e6 ? "Cooperative scaling active" : "Individual instinct"
+    return (manipulation=manipulation, community=community)
+end
+
+function survival_fittest(strife_factor::BigFloat, community::Real)
+    comm = Float64(community)
+    fittest = (strife_factor > 3.0 && strife_factor < 8.0) || (comm > 1e6)
+    volatility = strife_factor > 8.0 ? "High—damped by community power" : "Balanced"
+    stagnation = strife_factor < 2.0 ? "Low—weakened by curiosity variance" : "Balanced"
+    return (fittest=fittest, volatility=volatility, stagnation=stagnation)
 end
 
 function run_day6()

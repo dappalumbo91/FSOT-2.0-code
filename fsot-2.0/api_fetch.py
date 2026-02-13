@@ -1,9 +1,8 @@
-import arxiv
-import requests
+import arxiv  # type: ignore
 from Bio import Entrez
 import json
 
-Entrez.email = "your.email@example.com"  # Replace with a real email
+Entrez.email = "your.email@example.com"  # type: ignore  # Replace with a real email
 
 def fetch_arxiv_papers(query, max_results=10):
     search = arxiv.Search(

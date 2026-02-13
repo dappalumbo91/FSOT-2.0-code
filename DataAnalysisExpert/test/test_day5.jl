@@ -1,4 +1,5 @@
 using Test
+include("../day1/day1.jl")
 include("../day5.jl")
 
 @testset "Day 5 — swarming biota scaffold" begin

@@ -1,0 +1,4 @@
+# Mock FITS-as-text fallback for unit tests
+# This file intentionally contains plain whitespace table so parse_fits_file falls back
+10 0.111e-18
+20 0.222e-18
