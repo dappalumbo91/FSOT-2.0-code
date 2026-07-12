@@ -8,8 +8,11 @@ from typing import Any
 
 from fsot.adapter import load_compute
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
+def _data_root() -> Path:
+    return Path(__file__).resolve().parent / "bundled_data"
+
+
+DATA = _data_root()
 BENCH = DATA / "benchmarks"
 MANIFEST = DATA / "runtime_manifest.json"
 

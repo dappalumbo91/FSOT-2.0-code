@@ -46,6 +46,6 @@ def test_cli_verify_subprocess():
 
 
 def test_manifest_benchmarks_present():
-    manifest = json.loads((ROOT / "data" / "runtime_manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "fsot" / "bundled_data" / "runtime_manifest.json").read_text(encoding="utf-8"))
     for name in manifest["benchmarks"]:
-        assert (ROOT / "data" / "benchmarks" / name).exists()
+        assert (ROOT / "fsot" / "bundled_data" / "benchmarks" / name).exists()

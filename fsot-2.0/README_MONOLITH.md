@@ -5,17 +5,17 @@ Interpretable, independent FSOT runtime — **Python + mpmath only** for the cor
 ## Quick start
 
 ```bash
-git clone https://github.com/dappalumbo91/FSOT-2.0-code.git
-cd FSOT-2.0-code/fsot-2.0
-python -m pip install --upgrade pip
-pip install -e .
-fsot verify          # portable constants + bundled benchmark replay
-fsot domains         # list 35 domain scalars
-fsot predict 72 --property heart_rate_bpm --domain Biochemistry
-fsot run --validate  # 28-check validation suite from the compute engine
+pip install git+https://github.com/dappalumbo91/FSOT-2.0-code.git
+fsot verify
 ```
 
-For CI-parity checks: `pip install -e ".[dev]"` then `pytest tests/test_monolith.py -q`.
+Or after cloning: `cd FSOT-2.0-code && pip install .`
+
+```bash
+fsot domains
+fsot predict 72 --property heart_rate_bpm --domain Biochemistry
+fsot run --validate
+```
 
 ## Commands
 
