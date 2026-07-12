@@ -16,6 +16,7 @@ license = { text = "MIT" }
 fsot = "fsot.cli:main"
 
 [project.optional-dependencies]
+dev = ["pytest>=8.0"]
 legacy = ["PyPDF2", "python-docx", "requests", "beautifulsoup4", "lxml"]
 
 [tool.setuptools.packages.find]
