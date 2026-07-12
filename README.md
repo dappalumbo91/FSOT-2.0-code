@@ -1,4 +1,22 @@
 Fluid Spacetime Omni-Theory (FSOT) 2.0
+
+## Monolithic runtime (July 2026)
+
+The `fsot-2.0/` package is now a **boot-and-run** interpretable system:
+
+```bash
+cd fsot-2.0
+pip install -e .
+fsot verify          # portable verification (constants + bundled panels)
+fsot domains         # 35 domain scalars
+fsot predict 2.5 --property basic_reproduction_R0 --domain Biochemistry
+fsot run --validate  # 28-check validation suite
+```
+
+See [fsot-2.0/README_MONOLITH.md](fsot-2.0/README_MONOLITH.md) for full CLI docs. Only `mpmath` is required for the core engine.
+
+---
+
 As of August 6, 2025, FSOT 2.0 represents a refined, intrinsic unified framework developed through iterative discussions. It models the universe as a dynamic fluid spacetime medium, deriving all physical, quantum, biological, and cosmological phenomena from fundamental mathematical constants (e.g., φ, e, π, γ_euler) without any free parameters. The theory posits 25 compressed physical dimensions that scale dynamically per interaction domain, with black holes acting as "valves" for information flow via quantum tunneling ("poofing") and yin-yang duality (damping vs. emergence). Key features include observer effects (quirk_mod for quantum collapses), consciousness boosts (mid-scale coherence), and a universal scaling constant k ≈0.4202 for ~99% observational closeness across 25+ tested domains.
 
 ### Abstract

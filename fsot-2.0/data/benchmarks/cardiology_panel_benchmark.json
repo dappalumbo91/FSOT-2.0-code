@@ -1,0 +1,309 @@
+{
+  "benchmark_version": "1.1",
+  "generated_at": "2026-07-12T15:06:42.357293+00:00",
+  "domain": "Cardiology_Panel",
+  "authority_path": "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\fsot_compute.py",
+  "source": [
+    "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\scientific_expansion\\tier84_cache\\cardiology_cache.json",
+    "AHA/ESC cardiology reference"
+  ],
+  "maps_to_lean": [
+    "medical",
+    "biological"
+  ],
+  "D_eff": 14,
+  "record_count": 20,
+  "observable_count": 20,
+  "scalar_record_count": 20,
+  "scalar_gate_applicable": true,
+  "median_error_pct": 0.015311,
+  "pooled_median_error_pct": 0.015311,
+  "headline_median_error_pct": 0.015311,
+  "sota_comparison": {
+    "fsot_free_parameters": 0,
+    "operational_baselines": {
+      "cardiology": {
+        "sota_typical_error_pct": 5.0,
+        "sota_model": "Clinical cardiology anchors"
+      }
+    },
+    "beats_sota_summary": {
+      "pooled_vs_domain_baseline": true,
+      "channel_fsot_prediction_vs_baseline": true
+    }
+  },
+  "records": [
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "pooled_median",
+      "name": "all_channels",
+      "computed": 0.015311,
+      "measured": 0.0,
+      "error_pct": 0.015311,
+      "observable_count": 20
+    },
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "fsot_prediction",
+      "name": "cardiology",
+      "computed": 0.015311,
+      "measured": 0.0,
+      "error_pct": 0.015311,
+      "observable_count": 20
+    }
+  ],
+  "material_records": [
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "heart_rate_bpm",
+      "name": "resting_hr_adult",
+      "computed": 72.011024,
+      "measured": 72.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "max_heart_rate_bpm",
+      "name": "max_hr_40yo",
+      "computed": 180.02756,
+      "measured": 180.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "ejection_fraction_pct",
+      "name": "normal_ejection_fraction",
+      "computed": 60.009187,
+      "measured": 60.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "ejection_fraction_pct",
+      "name": "heart_failure_ef_threshold",
+      "computed": 40.006124,
+      "measured": 40.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "systolic_bp_mmhg",
+      "name": "systolic_bp_normal",
+      "computed": 120.018373,
+      "measured": 120.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "diastolic_bp_mmhg",
+      "name": "diastolic_bp_normal",
+      "computed": 80.012249,
+      "measured": 80.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "cardiac_output_l_min",
+      "name": "cardiac_output_rest",
+      "computed": 5.000766,
+      "measured": 5.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "stroke_volume_ml",
+      "name": "stroke_volume_rest",
+      "computed": 70.010718,
+      "measured": 70.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "lv_mass_index_g_m2",
+      "name": "lv_mass_index_normal",
+      "computed": 95.014546,
+      "measured": 95.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "qt_interval_ms",
+      "name": "qt_interval_normal",
+      "computed": 400.061244,
+      "measured": 400.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "pr_interval_ms",
+      "name": "pr_interval_normal",
+      "computed": 160.024498,
+      "measured": 160.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "troponin_ng_ml",
+      "name": "troponin_uln",
+      "computed": 0.040006,
+      "measured": 0.04,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "ldl_cholesterol_mg_dl",
+      "name": "ldl_target_high_risk",
+      "computed": 70.010718,
+      "measured": 70.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "hdl_cholesterol_mg_dl",
+      "name": "hdl_male_reference",
+      "computed": 50.007656,
+      "measured": 50.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "triglycerides_mg_dl",
+      "name": "triglycerides_normal",
+      "computed": 150.022967,
+      "measured": 150.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "coronary_flow_reserve",
+      "name": "coronary_flow_reserve",
+      "computed": 3.000459,
+      "measured": 3.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "valve_area_cm2",
+      "name": "aortic_valve_area_severe",
+      "computed": 1.000153,
+      "measured": 1.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "paced_rate_bpm",
+      "name": "pacemaker_lower_rate",
+      "computed": 60.009187,
+      "measured": 60.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "vo2max_ml_kg_min",
+      "name": "vo2max_cardiac_rehab",
+      "computed": 25.003828,
+      "measured": 25.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    },
+    {
+      "lab": "cardiology_panel_lab",
+      "property": "bnp_pg_ml",
+      "name": "bnp_hf_threshold",
+      "computed": 100.015311,
+      "measured": 100.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "cardiology_reference_observables_bundled"
+    }
+  ],
+  "margin_summary": {
+    "scalar_pooled_median_error_pct": 0.015311,
+    "max_scalar_error_pct": 0.015311,
+    "classifier_count": 0,
+    "classifier_correct": 0,
+    "classifier_misclass_count": 0,
+    "classifier_accuracy_pct": null,
+    "classifier_misclass_rate_pct": null,
+    "classifier_pass": true,
+    "fsot_precision_aligned": true
+  },
+  "fsot_precision_gate_pct": 0.5
+}

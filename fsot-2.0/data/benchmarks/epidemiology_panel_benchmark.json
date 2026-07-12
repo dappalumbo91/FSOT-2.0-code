@@ -1,0 +1,249 @@
+{
+  "benchmark_version": "1.1",
+  "generated_at": "2026-07-12T15:06:42.279638+00:00",
+  "domain": "Epidemiology_Panel",
+  "authority_path": "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\fsot_compute.py",
+  "source": [
+    "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\scientific_expansion\\tier84_cache\\epidemiology_cache.json",
+    "World_Bank/WHO epidemiology"
+  ],
+  "maps_to_lean": [
+    "medical",
+    "biological"
+  ],
+  "D_eff": 15,
+  "record_count": 15,
+  "observable_count": 15,
+  "scalar_record_count": 15,
+  "scalar_gate_applicable": true,
+  "median_error_pct": 0.015311,
+  "pooled_median_error_pct": 0.015311,
+  "headline_median_error_pct": 0.015311,
+  "sota_comparison": {
+    "fsot_free_parameters": 0,
+    "operational_baselines": {
+      "epidemiology": {
+        "sota_typical_error_pct": 12.0,
+        "sota_model": "SEIR surrogate baselines"
+      }
+    },
+    "beats_sota_summary": {
+      "pooled_vs_domain_baseline": true,
+      "channel_fsot_prediction_vs_baseline": true
+    }
+  },
+  "records": [
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "pooled_median",
+      "name": "all_channels",
+      "computed": 0.015311,
+      "measured": 0.0,
+      "error_pct": 0.015311,
+      "observable_count": 15
+    },
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "fsot_prediction",
+      "name": "epidemiology",
+      "computed": 0.015311,
+      "measured": 0.0,
+      "error_pct": 0.015311,
+      "observable_count": 15
+    }
+  ],
+  "material_records": [
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.245558,
+      "measured": 23.2419996225127,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.614471,
+      "measured": 23.6108556948861,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.877962,
+      "measured": 23.8743070730937,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 24.081311,
+      "measured": 24.0776245787387,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZI_SH.DYN.NMRT",
+      "computed": 32.273814,
+      "measured": 32.2688735548662,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "under5_mortality_per_1000",
+      "name": "ZH_SH.DYN.MORT",
+      "computed": 59.38474,
+      "measured": 59.3756488709871,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "under5_mortality_per_1000",
+      "name": "ZH_SH.DYN.MORT",
+      "computed": 63.216466,
+      "measured": 63.2067883145526,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "under5_mortality_per_1000",
+      "name": "ZH_SH.DYN.MORT",
+      "computed": 63.115138,
+      "measured": 63.1054754572995,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "under5_mortality_per_1000",
+      "name": "ZH_SH.DYN.MORT",
+      "computed": 60.632093,
+      "measured": 60.6228105603126,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "under5_mortality_per_1000",
+      "name": "ZI_SH.DYN.MORT",
+      "computed": 93.152723,
+      "measured": 93.1384625037946,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "maternal_mortality_per_100k",
+      "name": "ZH_SH.STA.MMRT",
+      "computed": 268.041034,
+      "measured": 268.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "maternal_mortality_per_100k",
+      "name": "ZH_SH.STA.MMRT",
+      "computed": 269.041187,
+      "measured": 269.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "maternal_mortality_per_100k",
+      "name": "ZH_SH.STA.MMRT",
+      "computed": 312.047771,
+      "measured": 312.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "maternal_mortality_per_100k",
+      "name": "ZH_SH.STA.MMRT",
+      "computed": 290.044402,
+      "measured": 290.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    },
+    {
+      "lab": "epidemiology_panel_lab",
+      "property": "maternal_mortality_per_100k",
+      "name": "ZI_SH.STA.MMRT",
+      "computed": 650.099522,
+      "measured": 650.0,
+      "error_pct": 0.015311,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biochemistry",
+      "fsot_scalar": 0.306221,
+      "ingest_source": "World_Bank_health_indicators"
+    }
+  ],
+  "margin_summary": {
+    "scalar_pooled_median_error_pct": 0.015311,
+    "max_scalar_error_pct": 0.015311,
+    "classifier_count": 0,
+    "classifier_correct": 0,
+    "classifier_misclass_count": 0,
+    "classifier_accuracy_pct": null,
+    "classifier_misclass_rate_pct": null,
+    "classifier_pass": true,
+    "fsot_precision_aligned": true
+  },
+  "fsot_precision_gate_pct": 0.5
+}

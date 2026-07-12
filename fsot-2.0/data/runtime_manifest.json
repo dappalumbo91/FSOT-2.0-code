@@ -1,0 +1,23 @@
+{
+  "version": "2.0.1",
+  "updated": "2026-07-12",
+  "engine": "fsot/compute.py",
+  "policy": "portable_bundled_only",
+  "gates": {
+    "min_records_per_panel": 5,
+    "max_pooled_median_error_pct": 0.5,
+    "max_scalar_error_pct": 5.0
+  },
+  "benchmarks": [
+    "epidemiology_panel_benchmark.json",
+    "virology_panel_benchmark.json",
+    "paleontology_panel_benchmark.json",
+    "arxiv_gravitational_waves_panel_benchmark.json",
+    "entomology_panel_benchmark.json",
+    "cardiology_panel_benchmark.json",
+    "scientific_expansion_wave2_spine_benchmark.json",
+    "volcanology_panel_benchmark.json",
+    "epidemiology_extension_benchmark.json",
+    "portable_clone_verify_benchmark.json"
+  ]
+}

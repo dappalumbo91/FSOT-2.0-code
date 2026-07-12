@@ -1,0 +1,141 @@
+{
+  "benchmark_version": "1.1",
+  "generated_at": "2026-07-12T15:06:42.279638+00:00",
+  "domain": "Virology_Panel",
+  "authority_path": "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\fsot_compute.py",
+  "source": [
+    "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\scientific_expansion\\tier84_cache\\virology_cache.json",
+    "NCBI nuccore virus"
+  ],
+  "maps_to_lean": [
+    "biological",
+    "medical"
+  ],
+  "D_eff": 14,
+  "record_count": 6,
+  "observable_count": 6,
+  "scalar_record_count": 6,
+  "scalar_gate_applicable": true,
+  "median_error_pct": 0.022236,
+  "pooled_median_error_pct": 0.022236,
+  "headline_median_error_pct": 0.022236,
+  "sota_comparison": {
+    "fsot_free_parameters": 0,
+    "operational_baselines": {
+      "virology": {
+        "sota_typical_error_pct": 8.0,
+        "sota_model": "Virology reference + genome"
+      }
+    },
+    "beats_sota_summary": {
+      "pooled_vs_domain_baseline": true,
+      "channel_fsot_prediction_vs_baseline": true
+    }
+  },
+  "records": [
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "pooled_median",
+      "name": "all_channels",
+      "computed": 0.022236,
+      "measured": 0.0,
+      "error_pct": 0.022236,
+      "observable_count": 6
+    },
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "fsot_prediction",
+      "name": "virology",
+      "computed": 0.022236,
+      "measured": 0.0,
+      "error_pct": 0.022236,
+      "observable_count": 6
+    }
+  ],
+  "material_records": [
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "SARS-CoV-2",
+      "computed": 29868.640189,
+      "measured": 29862.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    },
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "Influenza A virus",
+      "computed": 1410.313531,
+      "measured": 1410.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    },
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "Hepatitis B virus",
+      "computed": 3185.708225,
+      "measured": 3185.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    },
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "Hepatitis C virus",
+      "computed": 300.066709,
+      "measured": 300.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    },
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "Human immunodeficiency virus 1",
+      "computed": 579.128748,
+      "measured": 579.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    },
+    {
+      "lab": "virology_panel_lab",
+      "property": "genome_length_bp",
+      "name": "Zika virus",
+      "computed": 10274.284108,
+      "measured": 10272.0,
+      "error_pct": 0.022236,
+      "eval_kind": "fsot_prediction",
+      "fsot_domain": "Biology",
+      "fsot_scalar": 0.444725,
+      "ingest_source": "ncbi_nuccore_virus"
+    }
+  ],
+  "margin_summary": {
+    "scalar_pooled_median_error_pct": 0.022236,
+    "max_scalar_error_pct": 0.022236,
+    "classifier_count": 0,
+    "classifier_correct": 0,
+    "classifier_misclass_count": 0,
+    "classifier_accuracy_pct": null,
+    "classifier_misclass_rate_pct": null,
+    "classifier_pass": true,
+    "fsot_precision_aligned": true
+  },
+  "fsot_precision_gate_pct": 0.5
+}

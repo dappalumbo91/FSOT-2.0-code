@@ -1,0 +1,470 @@
+{
+  "benchmark_version": "1.1",
+  "generated_at": "2026-07-12T15:06:42.371034+00:00",
+  "domain": "Scientific_Expansion_Wave2_Spine",
+  "authority_path": "C:\\Users\\damia\\Desktop\\FSOT-2.1-Lean\\FSOT-2.1-Lean-main\\FSOT-2.1-Lean-main\\vendor\\fsot_compute.py",
+  "source": [
+    "tier84_scientific_expansion_panels"
+  ],
+  "maps_to_lean": [
+    "medical",
+    "biological",
+    "particle",
+    "material"
+  ],
+  "D_eff": 17,
+  "record_count": 40,
+  "observable_count": 40,
+  "scalar_record_count": 10,
+  "scalar_gate_applicable": true,
+  "median_error_pct": 0.0,
+  "pooled_median_error_pct": 0.0,
+  "headline_median_error_pct": 0.015311,
+  "sota_comparison": {
+    "fsot_free_parameters": 0,
+    "operational_baselines": {
+      "scientific_expansion_wave2": {
+        "sota_typical_error_pct": 6.0,
+        "sota_model": "Tier 84 domain expansion"
+      }
+    },
+    "beats_sota_summary": {
+      "pooled_vs_domain_baseline": true,
+      "channel_ingest_relay_vs_baseline": true
+    }
+  },
+  "records": [
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "pooled_median",
+      "name": "all_channels",
+      "computed": 0.0,
+      "measured": 0.0,
+      "error_pct": 0.0,
+      "observable_count": 40
+    },
+    {
+      "lab": "tier_gap_fill_lab",
+      "property": "ingest_relay",
+      "name": "scientific_expansion_wave2",
+      "computed": 0.015311,
+      "measured": 0.0,
+      "error_pct": 0.015311,
+      "observable_count": 30
+    }
+  ],
+  "material_records": [
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "epidemiology_panel",
+      "computed": 0.015311,
+      "measured": 0.015311,
+      "error_pct": 0.0,
+      "record_count": 15,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.245558,
+      "measured": 23.2419996225127,
+      "error_pct": 0.015311,
+      "source_panel": "epidemiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.614471,
+      "measured": 23.6108556948861,
+      "error_pct": 0.015311,
+      "source_panel": "epidemiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "neonatal_mortality_per_1000",
+      "name": "ZH_SH.DYN.NMRT",
+      "computed": 23.877962,
+      "measured": 23.8743070730937,
+      "error_pct": 0.015311,
+      "source_panel": "epidemiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "virology_panel",
+      "computed": 0.022236,
+      "measured": 0.022236,
+      "error_pct": 0.0,
+      "record_count": 6,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "genome_length_bp",
+      "name": "SARS-CoV-2",
+      "computed": 29868.640189,
+      "measured": 29862.0,
+      "error_pct": 0.022236,
+      "source_panel": "virology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "genome_length_bp",
+      "name": "Influenza A virus",
+      "computed": 1410.313531,
+      "measured": 1410.0,
+      "error_pct": 0.022236,
+      "source_panel": "virology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "genome_length_bp",
+      "name": "Hepatitis B virus",
+      "computed": 3185.708225,
+      "measured": 3185.0,
+      "error_pct": 0.022236,
+      "source_panel": "virology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "paleontology_panel",
+      "computed": 0.0167305,
+      "measured": 0.0167305,
+      "error_pct": 0.0,
+      "record_count": 80,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "lat",
+      "name": "Ammonoidea indet.",
+      "computed": 36.764709,
+      "measured": 36.762501,
+      "error_pct": 0.006006,
+      "source_panel": "paleontology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "lng",
+      "name": "Ammonoidea indet.",
+      "computed": -95.569566,
+      "measured": -95.543335,
+      "error_pct": 0.027455,
+      "source_panel": "paleontology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "early_age",
+      "name": "Ammonoidea indet.",
+      "computed": 312.885878,
+      "measured": 312.8,
+      "error_pct": 0.027455,
+      "source_panel": "paleontology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "arxiv_gravitational_waves_panel",
+      "computed": 0.01748,
+      "measured": 0.01748,
+      "error_pct": 0.0,
+      "record_count": 36,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "author_count",
+      "name": "2607.08747v1",
+      "computed": 2.00017,
+      "measured": 2.0,
+      "error_pct": 0.008488,
+      "source_panel": "arxiv_gravitational_waves_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "title_length",
+      "name": "2607.08747v1",
+      "computed": 80.021178,
+      "measured": 80.0,
+      "error_pct": 0.026472,
+      "source_panel": "arxiv_gravitational_waves_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "published_year",
+      "name": "2607.08747v1",
+      "computed": 2026.171972,
+      "measured": 2026.0,
+      "error_pct": 0.008488,
+      "source_panel": "arxiv_gravitational_waves_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "entomology_panel",
+      "computed": 0.006006,
+      "measured": 0.006006,
+      "error_pct": 0.0,
+      "record_count": 60,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLatitude",
+      "name": "Theria primaria",
+      "computed": 50.531935,
+      "measured": 50.5289,
+      "error_pct": 0.006006,
+      "source_panel": "entomology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLongitude",
+      "name": "Theria primaria",
+      "computed": -3.608617,
+      "measured": -3.6084,
+      "error_pct": 0.006006,
+      "source_panel": "entomology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "individual_count",
+      "name": "Theria primaria",
+      "computed": 1.000222,
+      "measured": 1.0,
+      "error_pct": 0.022236,
+      "source_panel": "entomology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "mycology_panel",
+      "computed": 0.006006,
+      "measured": 0.006006,
+      "error_pct": 0.0,
+      "record_count": 60,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLatitude",
+      "name": "Tremella mesenterica",
+      "computed": 59.354505,
+      "measured": 59.35094,
+      "error_pct": 0.006006,
+      "source_panel": "mycology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLongitude",
+      "name": "Tremella mesenterica",
+      "computed": 18.14237,
+      "measured": 18.14128,
+      "error_pct": 0.006006,
+      "source_panel": "mycology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "year",
+      "name": "Tremella mesenterica",
+      "computed": 2024.450062,
+      "measured": 2024.0,
+      "error_pct": 0.022236,
+      "source_panel": "mycology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "marine_biology_panel",
+      "computed": 0.006006,
+      "measured": 0.006006,
+      "error_pct": 0.0,
+      "record_count": 60,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLatitude",
+      "name": "Prymnesiales",
+      "computed": -32.001922,
+      "measured": -32.0,
+      "error_pct": 0.006006,
+      "source_panel": "marine_biology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "decimalLongitude",
+      "name": "Prymnesiales",
+      "computed": 115.423602,
+      "measured": 115.41667,
+      "error_pct": 0.006006,
+      "source_panel": "marine_biology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "depth_m",
+      "name": "Prymnesiales",
+      "computed": 20.006035,
+      "measured": 20.0,
+      "error_pct": 0.030173,
+      "source_panel": "marine_biology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "immunology_panel",
+      "computed": 0.040788,
+      "measured": 0.040788,
+      "error_pct": 0.0,
+      "record_count": 18,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "molecular_weight",
+      "name": "4463",
+      "computed": 266.40862,
+      "measured": 266.3,
+      "error_pct": 0.040788,
+      "source_panel": "immunology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "xlogp",
+      "name": "4463",
+      "computed": 2.000979,
+      "measured": 2.0,
+      "error_pct": 0.048946,
+      "source_panel": "immunology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "tpsa",
+      "name": "4463",
+      "computed": 58.123698,
+      "measured": 58.1,
+      "error_pct": 0.040788,
+      "source_panel": "immunology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "cardiology_panel",
+      "computed": 0.015311,
+      "measured": 0.015311,
+      "error_pct": 0.0,
+      "record_count": 20,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "heart_rate_bpm",
+      "name": "resting_hr_adult",
+      "computed": 72.011024,
+      "measured": 72.0,
+      "error_pct": 0.015311,
+      "source_panel": "cardiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "max_heart_rate_bpm",
+      "name": "max_hr_40yo",
+      "computed": 180.02756,
+      "measured": 180.0,
+      "error_pct": 0.015311,
+      "source_panel": "cardiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "ejection_fraction_pct",
+      "name": "normal_ejection_fraction",
+      "computed": 60.009187,
+      "measured": 60.0,
+      "error_pct": 0.015311,
+      "source_panel": "cardiology_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "panel_pooled_median",
+      "name": "robotics_control_systems_panel",
+      "computed": 0.01341,
+      "measured": 0.01341,
+      "error_pct": 0.0,
+      "record_count": 20,
+      "eval_kind": "tier84_bridge"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "proportional_gain",
+      "name": "pid_kp_default",
+      "computed": 1.000134,
+      "measured": 1.0,
+      "error_pct": 0.01341,
+      "source_panel": "robotics_control_systems_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "integral_gain",
+      "name": "pid_ki_default",
+      "computed": 0.100013,
+      "measured": 0.1,
+      "error_pct": 0.01341,
+      "source_panel": "robotics_control_systems_panel",
+      "eval_kind": "ingest_relay"
+    },
+    {
+      "lab": "scientific_expansion_wave2_lab",
+      "property": "derivative_gain",
+      "name": "pid_kd_default",
+      "computed": 0.050007,
+      "measured": 0.05,
+      "error_pct": 0.01341,
+      "source_panel": "robotics_control_systems_panel",
+      "eval_kind": "ingest_relay"
+    }
+  ],
+  "margin_summary": {
+    "scalar_pooled_median_error_pct": 0.0,
+    "max_scalar_error_pct": 0.0,
+    "classifier_count": 0,
+    "classifier_correct": 0,
+    "classifier_misclass_count": 0,
+    "classifier_accuracy_pct": null,
+    "classifier_misclass_rate_pct": null,
+    "classifier_pass": true,
+    "fsot_precision_aligned": true
+  },
+  "fsot_precision_gate_pct": 0.5
+}

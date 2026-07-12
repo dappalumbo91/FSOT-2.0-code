@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsot"
+version = "2.0.1"
+description = "Fluid Spacetime Omni-Theory 2.0 — monolithic interpretable runtime"
+readme = "README_MONOLITH.md"
+requires-python = ">=3.10"
+dependencies = ["mpmath>=1.3.0"]
+authors = [{ name = "Damian Arthur Palumbo" }]
+license = { text = "MIT" }
+
+[project.scripts]
+fsot = "fsot.cli:main"
+
+[project.optional-dependencies]
+legacy = ["PyPDF2", "python-docx", "requests", "beautifulsoup4", "lxml"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fsot*"]
+
+[tool.setuptools.package-data]
+fsot = []

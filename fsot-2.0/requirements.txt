@@ -1,8 +1,8 @@
-mpmath
-PyPDF2
-python-docx
-requests
-arxiv
-pubmed-lookup  # or similar, but let's check
-beautifulsoup4
-lxml
+mpmath>=1.3.0
+
+# Optional — legacy document ingestion (main.py)
+# PyPDF2
+# python-docx
+# requests
+# beautifulsoup4
+# lxml
