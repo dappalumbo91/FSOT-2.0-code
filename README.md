@@ -2,18 +2,49 @@ Fluid Spacetime Omni-Theory (FSOT) 2.0
 
 ## Monolithic runtime (July 2026)
 
-The `fsot-2.0/` package is now a **boot-and-run** interpretable system:
+The `fsot-2.0/` package is a **boot-and-run** interpretable system. Only **Python 3.10+** and **`mpmath`** are required for the core engine (no compile step, no Lean/Coq).
+
+### Install with pip
+
+**From a git clone (recommended):**
+
+```bash
+git clone https://github.com/dappalumbo91/FSOT-2.0-code.git
+cd FSOT-2.0-code/fsot-2.0
+python -m pip install --upgrade pip
+pip install -e .
+```
+
+**Editable install with dev tests (matches CI):**
 
 ```bash
 cd fsot-2.0
-pip install -e .
+pip install -e ".[dev]"
+```
+
+**Requirements-only install (no CLI entrypoint):**
+
+```bash
+cd fsot-2.0
+pip install -r requirements.txt
+python -m fsot verify
+```
+
+On Windows PowerShell, use the same commands (`cd fsot-2.0` then `pip install -e .`).
+
+### Run after install
+
+```bash
 fsot verify          # portable verification (constants + bundled panels)
 fsot domains         # 35 domain scalars
 fsot predict 2.5 --property basic_reproduction_R0 --domain Biochemistry
 fsot run --validate  # 28-check validation suite
+pytest tests/test_monolith.py -q   # if you installed with [dev]
 ```
 
-See [fsot-2.0/README_MONOLITH.md](fsot-2.0/README_MONOLITH.md) for full CLI docs. Only `mpmath` is required for the core engine.
+If `fsot` is not on your PATH, use `python -m fsot` instead (e.g. `python -m fsot verify`).
+
+See [fsot-2.0/README_MONOLITH.md](fsot-2.0/README_MONOLITH.md) for full CLI docs.
 
 ---
 
