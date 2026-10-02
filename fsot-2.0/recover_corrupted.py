@@ -4,6 +4,11 @@ import docx2txt
 import pdfplumber
 from pathlib import Path
 
+# Repo root (this file lives in <repo>/fsot-2.0/). The source corpus that these scripts scan
+# defaults to the folder containing the repo checkout; override with FSOT_SOURCE_ROOT.
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_SOURCE_ROOT = os.environ.get("FSOT_SOURCE_ROOT", "").strip() or os.path.dirname(_REPO_ROOT)
+
 def extract_text_fallback(file_path):
     """Extract text using fallback libraries for corrupted files."""
     try:
@@ -23,8 +28,8 @@ def extract_text_fallback(file_path):
 
 def recover_corrupted_files():
     """Recover text from corrupted .fsot_updated files and update processed_data.json."""
-    corrupted_dir = Path(r'b:\fsuft aasb\fsot tech\fsot_updated_blueprints')
-    processed_file = Path(r'b:\fsuft aasb\FSOT-2.0-code\fsot-2.0\processed_data.json')
+    corrupted_dir = Path(_SOURCE_ROOT) / 'fsot tech' / 'fsot_updated_blueprints'
+    processed_file = Path(_REPO_ROOT) / 'fsot-2.0' / 'processed_data.json'
 
     if not processed_file.exists():
         print("processed_data.json not found.")

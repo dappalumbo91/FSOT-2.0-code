@@ -5,6 +5,11 @@ from PyPDF2 import PdfReader
 from docx import Document
 import fsot_2_0  # import the FSOT module
 
+# Repo root (this file lives in <repo>/fsot-2.0/). The source corpus that main.py scans
+# defaults to the folder containing the repo checkout; override with FSOT_SOURCE_ROOT.
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_SOURCE_ROOT = os.environ.get("FSOT_SOURCE_ROOT", "").strip() or os.path.dirname(_REPO_ROOT)
+
 def extract_text_from_pdf(file_path):
     try:
         reader = PdfReader(file_path)
@@ -111,8 +116,8 @@ def process_file(file_path):
     return text
 
 def main():
-    root_dir = r'b:\fsuft aasb'
-    exclude_dir = os.path.join(root_dir, 'FSOT-2.0-code', 'fsot-2.0')
+    root_dir = _SOURCE_ROOT
+    exclude_dir = os.path.join(_REPO_ROOT, 'fsot-2.0')
     files = get_files_to_process(root_dir, exclude_dir)
     
     # Load cross-reference data
